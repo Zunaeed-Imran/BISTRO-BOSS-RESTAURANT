@@ -5,10 +5,10 @@ function Hero() {
   return (
     <div>
       <div
-        className=" bg-cover bg-center h-[500px] flex items-start justify-start rounded-md mb-28"
+        className="relative bg-cover bg-center h-[500px] flex items-start justify-start rounded-md mb-28"
         style={{ backgroundImage: `url(${hero})` }}
       >
-        <div className="">
+        <div className="absolute bottom-4 flex left-1/2">
           <img src={button} alt="hero button" />
         </div>
       </div>
