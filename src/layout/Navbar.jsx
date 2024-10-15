@@ -2,18 +2,18 @@ import logo from "../assets/logo/logo.png";
 
 function Navbar() {
   return (
-    <div className="bg-transparent top-0 fixed w-full z-20">
+    <div className="bg-transparent bg-black bg-opacity-20 top-0 fixed w-full z-20">
       <div className="flex justify-between">
         <div className="justify items-center">
           <img src={logo} alt="logo" />
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center pr-20">
-          <p>HOME</p>
-          <p>CONTACT US</p>
-          <p>DASHBOARD</p>
-          <p>OUR MENU</p>
-          <p>OUR SHOP</p>
-          <p>SIGN OUT</p>
+          <p className="hover:text-yellow-400">HOME</p>
+          <p className="hover:text-yellow-400">CONTACT US</p>
+          <p className="hover:text-yellow-400">DASHBOARD</p>
+          <p className="hover:text-yellow-400">OUR MENU</p>
+          <p className="hover:text-yellow-400">OUR SHOP</p>
+          <p className="hover:text-yellow-400">SIGN OUT</p>
         </div>
       </div>
     </div>
