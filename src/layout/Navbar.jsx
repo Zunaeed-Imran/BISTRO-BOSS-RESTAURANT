@@ -2,12 +2,12 @@ import logo from "../assets/logo/logo.png";
 
 function Navbar() {
   return (
-    <div>
+    <div className="bg-transparent top-0 fixed w-full z-20">
       <div className="flex justify-between">
         <div className="justify items-center">
           <img src={logo} alt="logo" />
         </div>
-        <div className="flex gap-4 text-white justify items-center">
+        <div className="flex gap-4 text-white font-bold justify items-center pr-20">
           <p>HOME</p>
           <p>CONTACT US</p>
           <p>DASHBOARD</p>
