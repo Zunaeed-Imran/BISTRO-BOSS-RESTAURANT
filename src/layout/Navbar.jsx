@@ -4,9 +4,9 @@ import { RiShoppingCartLine } from "react-icons/ri";
 
 function Navbar() {
   return (
-    <div className="bg-transparent bg-black bg-opacity-20 top-0 fixed w-screen z-20">
+    <div className="bg-transparent bg-black bg-opacity-20 top-0 fixed w-screen z-20 p-0 m-0">
       <div className="flex justify-between w-full">
-        <div className="justify items-center">
+        <div className="justify items-center pl-5">
           <img src={logo} alt="logo" />
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center pr-20">
