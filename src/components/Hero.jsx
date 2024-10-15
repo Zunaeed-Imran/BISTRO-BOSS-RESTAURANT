@@ -8,7 +8,9 @@ function Hero() {
         className=" bg-cover bg-center h-[500px] flex items-start justify-start rounded-md mb-28"
         style={{ backgroundImage: `url(${hero})` }}
       >
-        <img src={button} alt="hero button" />
+        <div className="">
+          <img src={button} alt="hero button" />
+        </div>
       </div>
     </div>
   );
