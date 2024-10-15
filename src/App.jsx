@@ -1,4 +1,5 @@
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <h1 className='text-xs'>Hello</h1>
+        <Hero/>
       </div>
     </>
   )
