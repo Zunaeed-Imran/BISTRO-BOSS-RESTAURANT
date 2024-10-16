@@ -16,10 +16,16 @@ function FromOurMenu() {
         <div>
           <img src={manucard} alt="Manu card" />
         </div>
-        <div>
-          <h2></h2>
-          <p></p>
-          <ReadMore/>
+        <div className="text-white">
+          <h2>March 20, 2023</h2>
+          <h2>WHERE CAN I GET SOME?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            voluptate facere, deserunt dolores maiores quod nobis quas quasi.
+            Eaque repellat recusandae ad laudantium tempore consequatur
+            consequuntur omnis ullam maxime tenetur.
+          </p>
+          <ReadMore />
         </div>
       </div>
     </div>

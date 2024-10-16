@@ -3,7 +3,7 @@ import React from 'react'
 function ReadMore() {
   return (
     <div className=''>
-      <button className='btn'>READ MORE</button>
+      <button className='btn bg-transparent text-white '>READ MORE</button>
     </div>
   )
 }
