@@ -1,3 +1,4 @@
+import ChefCard from "../cards/ChefCard";
 
 
 function ChefRecommends() {
@@ -8,7 +9,11 @@ function ChefRecommends() {
         <h1 className="text-4xl py-7">CHEF RECOMMENDS</h1>
       </div>
       <div>
-        
+        <ChefCard
+          img={''}
+          name={''}
+          desc={''}
+          button={''} />
       </div>
     </div>
   );
