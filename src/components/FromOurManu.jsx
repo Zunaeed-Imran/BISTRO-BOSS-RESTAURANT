@@ -11,9 +11,12 @@ function FromOurManu() {
       <div>
         <ManuCard
           img={ManuLogo}
-          name={''}
-          desc={''}
-          price={''} />
+          name={'ROAST DUCK BREAST ------------------'}
+          desc={
+            'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
+          }
+          price={'$14.5'}
+        />
       </div>
     </div>
   );

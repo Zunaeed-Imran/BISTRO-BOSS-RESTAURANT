@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function ManuCard({img, name, desc, price}) {
   return (
-    <div>
+    <div className='flex'>
       <div>
         <img src={img} alt="logo image" />
       </div>
