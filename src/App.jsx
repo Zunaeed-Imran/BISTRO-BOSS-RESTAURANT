@@ -1,4 +1,5 @@
 import './App.css'
+import FromOurManu from './components/FromOurManu'
 import Hero from './components/Hero'
 import OrderOnline from './components/OrderOnline'
 
@@ -9,7 +10,8 @@ function App() {
     <>
       <div>
         <Hero />
-        <OrderOnline/>
+        <OrderOnline />
+        <FromOurManu/>
       </div>
     </>
   )
