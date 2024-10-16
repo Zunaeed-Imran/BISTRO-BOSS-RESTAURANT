@@ -16,9 +16,9 @@ function FromOurMenu() {
         <div className="p-20">
           <img src={manucard} alt="Manu card" />
         </div>
-        <div className="text-white text-left py-5">
-          <h2>March 20, 2023</h2>
-          <h2>WHERE CAN I GET SOME?</h2>
+        <div className="text-white text-left py-5 pt-24 pr-20">
+          <h2 className="text-xl">March 20, 2023</h2>
+          <h2 className="text-2xl">WHERE CAN I GET SOME?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             voluptate facere, deserunt dolores maiores quod nobis quas quasi.
