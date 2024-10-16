@@ -1,3 +1,4 @@
+import OrderOnlineBigCard from "../cards/OrderOnlineBigCard";
 import OrderOnlineCard from "../cards/OrderOnlineCard";
 
 
@@ -10,6 +11,9 @@ function OrderOnline() {
       </div>
       <div className="justify items-center py-8">
         <OrderOnlineCard/>
+      </div>
+      <div className="py-14">
+        <OrderOnlineBigCard/>
       </div>
     </div>
   );
