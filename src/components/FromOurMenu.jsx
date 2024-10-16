@@ -4,10 +4,11 @@ function FromOurMenu() {
   return (
     <div
       className="bg-cover bg-center"
-      style={{backgroundImage: `url(${manubg})`}}>
+      style={{ backgroundImage: `url(${manubg})` }}
+    >
       <div>
-        <p>---Check it out---</p>
-        <h1>FROM OUR MENU</h1>
+        <p className="text-xl text-[#D99904]">---Check it out---</p>
+        <h1 className="text-4xl text-white">FROM OUR MENU</h1>
       </div>
     </div>
   );
