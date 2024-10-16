@@ -8,7 +8,7 @@ function FromOurMenu() {
       className="bg-cover bg-center"
       style={{ backgroundImage: `url(${manubg})` }}
     >
-      <div>
+      <div className="pt-10">
         <p className="text-xl text-[#D99904]">---Check it out---</p>
         <h1 className="text-4xl text-white">FROM OUR MENU</h1>
       </div>
