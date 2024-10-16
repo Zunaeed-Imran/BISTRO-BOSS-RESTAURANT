@@ -1,5 +1,5 @@
 import ManuCard from "../cards/ManuCard";
-
+import ManuLogo from "../assets/logo/textlogo.png";
 
 function FromOurManu() {
   return (
@@ -9,7 +9,11 @@ function FromOurManu() {
         <h1 className="text-4xl py-4">FROM OUR MENU</h1>
       </div>
       <div>
-        <ManuCard/>
+        <ManuCard
+          img={ManuLogo}
+          name={''}
+          desc={''}
+          price={''} />
       </div>
     </div>
   );
