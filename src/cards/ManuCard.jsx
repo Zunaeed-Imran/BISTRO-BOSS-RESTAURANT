@@ -7,7 +7,7 @@ function ManuCard({img, name, desc, price}) {
         <img src={img} alt="logo image" />
       </div>
       <div>
-        <p>{name}</p>
+        <p className='font-cinzel text-xl font-semibold'>{name}</p>
         <p>{desc}</p>
       </div>
       <div>

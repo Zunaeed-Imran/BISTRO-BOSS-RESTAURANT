@@ -8,7 +8,7 @@ function FromOurManu() {
         <p className="italic text-[#D99904] text-xl">---Check it out---</p>
         <h1 className="text-4xl py-4">FROM OUR MENU</h1>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-3">
         <ManuCard
           img={ManuLogo}
           name={'ROAST DUCK BREAST ------------------'}
@@ -19,7 +19,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={ManuLogo}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'TUNA NIÇOISE ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -27,7 +27,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={ManuLogo}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'ESCALOPE DE VEAU ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -35,7 +35,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={ManuLogo}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'CHICKEN AND WALNUT SALAD ---------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -43,7 +43,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={ManuLogo}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'FISH PARMENTIER ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -51,7 +51,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={ManuLogo}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'ROASTED PORK BELLY ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
