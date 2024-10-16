@@ -1,5 +1,6 @@
 import ChefCard from "../cards/ChefCard";
-
+import chifManu from "../assets/cardimage/card.png";
+import AddToCart from "../button/AddToCart";
 
 function ChefRecommends() {
   return (
@@ -10,10 +11,11 @@ function ChefRecommends() {
       </div>
       <div>
         <ChefCard
-          img={''}
-          name={''}
-          desc={''}
-          button={''} />
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart/>}
+        />
       </div>
     </div>
   );
