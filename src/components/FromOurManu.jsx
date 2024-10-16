@@ -1,5 +1,6 @@
 import ManuCard from "../cards/ManuCard";
 import ManuLogo from "../assets/logo/textlogo.png";
+import ViewFullManu from "../button/ViewFullManu";
 
 function FromOurManu() {
   return (
@@ -57,6 +58,9 @@ function FromOurManu() {
           }
           price={'$14.5'}
         />
+      </div>
+      <div className="py-7">
+        <ViewFullManu />
       </div>
     </div>
   );
