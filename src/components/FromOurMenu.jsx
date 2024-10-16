@@ -12,11 +12,11 @@ function FromOurMenu() {
         <p className="text-xl text-[#D99904]">---Check it out---</p>
         <h1 className="text-4xl text-white">FROM OUR MENU</h1>
       </div>
-      <div>
-        <div>
+      <div className="grid grid-cols-2">
+        <div className="p-20">
           <img src={manucard} alt="Manu card" />
         </div>
-        <div className="text-white py-5">
+        <div className="text-white text-left py-5">
           <h2>March 20, 2023</h2>
           <h2>WHERE CAN I GET SOME?</h2>
           <p>
