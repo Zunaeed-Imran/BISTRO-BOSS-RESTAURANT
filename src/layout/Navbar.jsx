@@ -4,7 +4,7 @@ import { RiShoppingCartLine } from "react-icons/ri";
 
 function Navbar() {
   return (
-    <div className="bg-transparent bg-black bg-opacity-20 top-0 fixed w-screen z-20 p-0 m-0">
+    <div className=" bg-black bg-opacity-50 top-0 fixed w-screen z-20 p-0 m-0">
       <div className="flex justify-between w-full">
         <div className="justify items-center pl-5">
           <img src={logo} alt="logo" />
@@ -27,3 +27,6 @@ function Navbar() {
 }
 
 export default Navbar
+
+
+// bg - transparent; it is transparent class to make transparent.
