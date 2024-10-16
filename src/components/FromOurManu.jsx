@@ -1,3 +1,4 @@
+import ManuCard from "../cards/ManuCard";
 
 
 function FromOurManu() {
@@ -8,7 +9,7 @@ function FromOurManu() {
         <h1 className="text-4xl py-4">FROM OUR MENU</h1>
       </div>
       <div>
-        
+        <ManuCard/>
       </div>
     </div>
   );
