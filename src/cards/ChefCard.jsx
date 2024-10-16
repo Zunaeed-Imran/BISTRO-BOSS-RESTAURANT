@@ -2,13 +2,13 @@ import PropTytpes from 'prop-types';
 
 function ChefCard({img, name, desc, button}) {
   return (
-    <div>
+    <div className="flex flex-col bg-[#F3F3F3] m-3 pb-3">
       <img src={img} alt="manuimg" />
-      <h2>{name}</h2>
+      <h2 className="text-2xl font-bold">{name}</h2>
       <p>{desc}</p>
       {button}
     </div>
-  )
+  );
 }
 
 export default ChefCard
