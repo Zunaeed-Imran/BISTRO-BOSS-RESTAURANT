@@ -6,7 +6,7 @@ function OrderOnlineBigCard() {
       className="relative w-full bg-cover bg-center h-[500px] flex items-center justify-center rounded-md mb-28 top-0"
       style={{ backgroundImage: `url(${BigManu})` }}
     >
-      <div className="absolute bg-slate-50 flex flex-col justify-center items-center bottom-1/2  w-4/5 h-3/6">
+      <div className="absolute bg-slate-50 flex flex-col justify-center items-center   w-4/5 h-3/6">
         <h1 className="font-cinzel text-4xl">Bistro Boss</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
