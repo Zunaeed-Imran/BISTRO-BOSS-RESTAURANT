@@ -4,8 +4,8 @@ function ChefRecommends() {
   return (
     <div>
       <div>
-        <p>---Should Try---</p>
-        <h1>CHEF RECOMMENDS</h1>
+        <p className="italic text-[#D99904] text-xl">---Should Try---</p>
+        <h1 className="text-4xl">CHEF RECOMMENDS</h1>
       </div>
     </div>
   );
