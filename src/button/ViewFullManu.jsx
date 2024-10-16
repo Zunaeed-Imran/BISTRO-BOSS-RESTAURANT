@@ -3,7 +3,9 @@
 function ViewFullManu() {
   return (
     <div>
-      <button className="btn uppercase">View Full Menu</button>
+      <button className="btn uppercase border-b-4 border-black">
+        View Full Menu
+      </button>
     </div>
   );
 }
