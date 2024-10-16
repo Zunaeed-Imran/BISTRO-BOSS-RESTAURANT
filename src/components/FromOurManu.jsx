@@ -1,6 +1,7 @@
 import ManuCard from "../cards/ManuCard";
 import ManuLogo from "../assets/logo/textlogo.png";
 import ViewFullManu from "../button/ViewFullManu";
+import CallUs from "../smallcomponents/CallUs";
 
 function FromOurManu() {
   return (
@@ -61,6 +62,9 @@ function FromOurManu() {
       </div>
       <div className="py-7">
         <ViewFullManu />
+      </div>
+      <div>
+        <CallUs/>
       </div>
     </div>
   );
