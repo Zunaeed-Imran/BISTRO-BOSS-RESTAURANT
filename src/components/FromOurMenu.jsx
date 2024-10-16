@@ -16,7 +16,7 @@ function FromOurMenu() {
         <div>
           <img src={manucard} alt="Manu card" />
         </div>
-        <div className="text-white">
+        <div className="text-white py-5">
           <h2>March 20, 2023</h2>
           <h2>WHERE CAN I GET SOME?</h2>
           <p>
