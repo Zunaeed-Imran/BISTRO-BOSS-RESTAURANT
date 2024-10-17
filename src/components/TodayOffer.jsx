@@ -1,5 +1,6 @@
 import ManuCard from "../cards/ManuCard";
 import manuImg from "../assets/logo/textlogo.png";
+import Favurate from "../button/Favurate";
 
 function TodayOffer() {
   return (
@@ -41,6 +42,9 @@ function TodayOffer() {
           }
           price={'$14.5'}
         />
+      </div>
+      <div className="py-5">
+        <Favurate/>
       </div>
     </div>
   );
