@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainOutlet from './routes/MainOutlet';
 import ErrorPage from './page/ErrorPage';
 import Navbar from './layout/Navbar'
+import OurMenu from './page/OurMenu'
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         path: '/navbar',
         element: <Navbar/>
       },
+      {
+        path: '/ourmenu',
+        element: <OurMenu/>
+      }
     ],
   },
 ]);

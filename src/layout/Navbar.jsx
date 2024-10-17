@@ -1,6 +1,7 @@
 import { CgProfile } from "react-icons/cg";
 import logo from "../assets/logo/logo.png";
 import { RiShoppingCartLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,10 +11,14 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center pr-20">
-          <p className="hover:text-yellow-400">HOME</p>
+          <Link to="/" className="hover:text-yellow-400">
+            HOME
+          </Link>
           <p className="hover:text-yellow-400">CONTACT US</p>
           <p className="hover:text-yellow-400">DASHBOARD</p>
-          <p className="hover:text-yellow-400">OUR MENU</p>
+          <Link to="/ourmenu" className="hover:text-yellow-400">
+            OUR MENU
+          </Link>
           <p className="hover:text-yellow-400 flex gap-2">
             OUR SHOP <RiShoppingCartLine size={'1.5rem'} />
           </p>
