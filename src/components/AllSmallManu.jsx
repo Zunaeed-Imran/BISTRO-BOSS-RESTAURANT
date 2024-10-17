@@ -214,6 +214,10 @@ function AllSmallManu() {
           price={"$14.5"}
         />
       </div>
+      {/* end of the page fav button */}
+      <div className='py-5'>
+        <Favurate/>
+      </div>
     </div>
   );
 }
