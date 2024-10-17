@@ -1,6 +1,7 @@
 import React from 'react'
 import ManuCard from '../cards/ManuCard'
 import logoimg from "..//assets/logo/textlogo.png";
+import Favurate from '../button/Favurate';
 
 function MoreOfferFood() {
   return (
@@ -54,6 +55,9 @@ function MoreOfferFood() {
           }
           price={"$14.5"}
         />
+      </div>
+      <div className='py-5'>
+        <Favurate/>
       </div>
     </div>
   );
