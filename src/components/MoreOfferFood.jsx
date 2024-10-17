@@ -74,6 +74,9 @@ function MoreOfferFood() {
           }
         />
       </div>
+      <div className='pt-20'>
+        <Favurate />
+      </div>
     </div>
   );
 }
