@@ -1,7 +1,7 @@
 import './App.css'
 import ChefRecommends from './components/ChefRecommends'
 import FromOurManu from './components/FromOurManu'
-import FromOurMenu from './components/FromOurMenu'
+import FromOurMenu2 from './components/FromOurMenu2'
 import Hero from './components/Hero'
 import OrderOnline from './components/OrderOnline'
 import Testimonial from './components/Testimonial'
@@ -16,7 +16,7 @@ function App() {
         <OrderOnline />
         <FromOurManu />
         <ChefRecommends />
-        <FromOurMenu />
+        <FromOurMenu2 />
         <Testimonial/>
       </div>
     </>

@@ -2,7 +2,7 @@ import manubg from "../assets/pageimage/bgBlurManu.png";
 import manucard from "../assets/cardimage/manu.png";
 import ReadMore from "../button/ReadMore";
 
-function FromOurMenu() {
+function FromOurMenu2() {
   return (
     <div
       className="bg-cover bg-center"
@@ -32,4 +32,4 @@ function FromOurMenu() {
   );
 }
 
-export default FromOurMenu
+export default FromOurMenu2
