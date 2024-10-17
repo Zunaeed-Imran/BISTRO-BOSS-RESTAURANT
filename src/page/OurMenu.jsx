@@ -1,10 +1,12 @@
 import OurMenuHero from "../components/OurMenuHero"
+import TodayOffer from "../components/TodayOffer"
 
 
 function OurMenu() {
   return (
     <div>
-      <OurMenuHero/>
+      <OurMenuHero />
+      <TodayOffer/>
     </div>
   )
 }
