@@ -79,6 +79,9 @@ function AllSmallManu() {
           price={"$14.5"}
         />
       </div>
+      <div className='grid grid-cols-2'>
+        
+      </div>
     </div>
   );
 }
