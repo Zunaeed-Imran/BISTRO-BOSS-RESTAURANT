@@ -1,6 +1,8 @@
 import React from 'react'
 import ManuCard from '../cards/ManuCard'
 import ManuLogo from "../assets/logo/textlogo.png";
+import Favurate from '../button/Favurate';
+import BigManuCard from '../cards/BigManuCard';
 
 function AllSmallManu() {
   return (
@@ -146,6 +148,19 @@ function AllSmallManu() {
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
           }
           price={"$14.5"}
+        />
+      </div>
+      {/* lower button  */}
+      <div className="py-7">
+        <Favurate />
+      </div>
+      {/* anothe Big Manu Item */}
+      <div>
+        <BigManuCard
+          name={"SOUPS"}
+          desc={
+            "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          }
         />
       </div>
     </div>
