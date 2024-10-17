@@ -8,7 +8,7 @@ function TodayOffer() {
         <p className="italic text-[#D99904]">---Dont miss---</p>
         <h1 className="text-4xl">TODAYS OFFER</h1>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-3 pb-12">
         <ManuCard
           img={manuImg}
           name={'ROAST DUCK BREAST ------------------'}
