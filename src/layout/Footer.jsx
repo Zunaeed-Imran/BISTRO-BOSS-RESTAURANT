@@ -1,4 +1,5 @@
 import ContactUs from "../smallcomponents/ContactUs";
+import FollowUs from "../smallcomponents/FollowUs";
 
 
 function Footer() {
@@ -9,7 +10,7 @@ function Footer() {
           <ContactUs/>
         </div>
         <div>
-          <h1></h1>
+          <FollowUs/>
         </div>
       </div>
       <div className="bg-[#151515] text-white p-3">
