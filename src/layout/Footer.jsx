@@ -1,3 +1,4 @@
+import ContactUs from "../smallcomponents/ContactUs";
 
 
 function Footer() {
@@ -5,7 +6,7 @@ function Footer() {
     <div>
       <div>
         <div>
-          <h1></h1>
+          <ContactUs/>
         </div>
         <div>
           <h1></h1>
