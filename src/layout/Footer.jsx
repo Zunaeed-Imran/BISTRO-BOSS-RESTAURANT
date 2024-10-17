@@ -3,9 +3,19 @@
 function Footer() {
   return (
     <div>
-      <h1>This is Footer</h1>
+      <div>
+        <div>
+          <h1></h1>
+        </div>
+        <div>
+          <h1></h1>
+        </div>
+      </div>
+      <div className="bg-[#151515] text-white p-3">
+        <h1>Copyright © CulinaryCloud. All rights reserved.</h1>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Footer
