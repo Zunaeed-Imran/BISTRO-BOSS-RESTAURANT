@@ -5,12 +5,12 @@ import FollowUs from "../smallcomponents/FollowUs";
 function Footer() {
   return (
     <div>
-      <div>
-        <div>
-          <ContactUs/>
+      <div className="grid grid-cols-2">
+        <div className="bg-[#1F2937] text-white">
+          <ContactUs />
         </div>
-        <div>
-          <FollowUs/>
+        <div className="bg-[#111827] text-white">
+          <FollowUs />
         </div>
       </div>
       <div className="bg-[#151515] text-white p-3">
