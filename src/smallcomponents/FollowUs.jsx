@@ -7,7 +7,7 @@ function FollowUs() {
         <h1 className="text-2xl pb-5">Follow US</h1>
         <p>Join us on social media</p>
       </div>
-      <div className="">
+      <div className="flex justify-center gap-3 text-3xl">
         <FaFacebookF />
         <FaInstagram />
         <FaTwitter />
