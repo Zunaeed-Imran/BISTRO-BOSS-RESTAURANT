@@ -1,6 +1,7 @@
 import ManuCard from "../cards/ManuCard";
 import manuImg from "../assets/logo/textlogo.png";
 import Favurate from "../button/Favurate";
+import BigManuCard from "../cards/BigManuCard";
 
 function TodayOffer() {
   return (
@@ -44,7 +45,15 @@ function TodayOffer() {
         />
       </div>
       <div className="py-5">
-        <Favurate/>
+        <Favurate />
+      </div>
+      <div className="py-8">
+        <BigManuCard
+          name={'DESSERTS'}
+          desc={
+            'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+          }
+        />
       </div>
     </div>
   );

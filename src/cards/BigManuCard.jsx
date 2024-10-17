@@ -4,10 +4,10 @@ import bigManu from "../assets/cardimage/horizontalcard.png";
 function BigManuCard({name, desc}) {
   return (
     <div
-      className='bg-cover bg-center relative h-[500px]'
+      className='bg-cover bg-center relative h-[400px]'
       style={{ backgroundImage: `url(${bigManu})` }}>
-      <h1>{name}</h1>
-      <p>{desc}</p>
+      <h1 className=' text-2xl'>{name}</h1>
+      <p className=''>{desc}</p>
     </div>
   )
 }
