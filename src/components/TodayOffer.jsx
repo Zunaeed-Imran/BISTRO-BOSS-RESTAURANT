@@ -7,7 +7,7 @@ function TodayOffer() {
   return (
     <div>
       <div className="py-12">
-        <p className="italic text-[#D99904]">---Dont miss---</p>
+        <p className="italic font-semibold text-[#D99904]">---Dont miss---</p>
         <h1 className="text-4xl">TODAYS OFFER</h1>
       </div>
       <div className="grid grid-cols-2 gap-3 pb-12">
