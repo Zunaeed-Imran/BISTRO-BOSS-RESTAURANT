@@ -19,9 +19,9 @@ function Navbar() {
           <Link to="/ourmenu" className="hover:text-yellow-400">
             OUR MENU
           </Link>
-          <p className="hover:text-yellow-400 flex gap-2">
+          <Link to="/ourshop" className="hover:text-yellow-400 flex gap-2">
             OUR SHOP <RiShoppingCartLine size={'1.5rem'} />
-          </p>
+          </Link>
           <p className="hover:text-yellow-400 flex gap-2">
             SIGN OUT <CgProfile size={'1.5rem'} />
           </p>

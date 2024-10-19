@@ -7,11 +7,12 @@ import MainOutlet from './routes/MainOutlet';
 import ErrorPage from './page/ErrorPage';
 import Navbar from './layout/Navbar'
 import OurMenu from './page/OurMenu'
+import OurShop from './page/OurShop'
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <MainOutlet />,
     errorElement: <ErrorPage />,
     children: [
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
       },
       {
         path: '/navbar',
-        element: <Navbar/>
+        element: <Navbar />,
       },
       {
         path: '/ourmenu',
-        element: <OurMenu/>
-      }
+        element: <OurMenu />,
+      },
+      {
+        path: '/ourshop',
+        element: <OurShop/>,
+      },
     ],
   },
 ]);
