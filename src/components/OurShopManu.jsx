@@ -22,7 +22,49 @@ function OurShopManu() {
           DRINKS
         </p>
       </div>
-      <div className="flex">
+      <div className="grid grid-cols-3">
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
         <ChefCard
           img={chifManu}
           name={'Caeser Salad'}
