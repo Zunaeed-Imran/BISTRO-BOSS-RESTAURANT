@@ -5,7 +5,7 @@ import AddToCart from "../button/AddToCart";
 function OurShopManu() {
   return (
     <div>
-      <div className="flex gap-2 text-xl justify-center items-center py-20">
+      <div className="flex gap-2 text-xl justify-center items-center pt-20">
         <p className="hover:text-[#D99904] hover:underline decoration-double ">
           SALAD
         </p>
@@ -22,7 +22,7 @@ function OurShopManu() {
           DRINKS
         </p>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 pb-20">
         <ChefCard
           img={chifManu}
           name={'Caeser Salad'}
