@@ -1,4 +1,6 @@
-
+import ChefCard from "../cards/ChefCard";
+import chifManu from '../assets/cardimage/card.png';
+import AddToCart from "../button/AddToCart";
 
 function OurShopManu() {
   return (
@@ -19,6 +21,14 @@ function OurShopManu() {
         <p className="hover:text-[#D99904] hover:underline decoration-double">
           DRINKS
         </p>
+      </div>
+      <div className="flex">
+        <ChefCard
+          img={chifManu}
+          name={'Caeser Salad'}
+          desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
+          button={<AddToCart />}
+        />
       </div>
     </div>
   );
