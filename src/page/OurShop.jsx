@@ -1,10 +1,12 @@
 import HeroOurShop from "../components/HeroOurShop"
+import OurShopManu from "../components/OurShopManu"
 
 
 function OurShop() {
   return (
     <div>
-      <HeroOurShop/>
+      <HeroOurShop />
+      <OurShopManu/>
     </div>
   )
 }
