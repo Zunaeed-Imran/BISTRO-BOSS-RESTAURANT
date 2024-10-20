@@ -1,9 +1,10 @@
+import HeroOurShop from "../components/HeroOurShop"
 
 
 function OurShop() {
   return (
     <div>
-      
+      <HeroOurShop/>
     </div>
   )
 }
