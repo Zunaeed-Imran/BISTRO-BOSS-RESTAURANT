@@ -12,7 +12,7 @@ function ContactForm() {
       </div>
       <div className="flex flex-col bg-[#F3F3F3]">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 p-8">
-          <div>
+          <div className="flex flex-col gap-2">
             <label htmlFor="" className="text-left">
               Name*
             </label>
@@ -22,7 +22,7 @@ function ContactForm() {
               placeholder="Enter your name"
             />
           </div>
-          <div>
+          <div className="flex flex-col gap-2">
             <label htmlFor="" className="text-left">
               Email*
             </label>
@@ -33,7 +33,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div className="py-5 justify-center p-8">
+        <div className="py-5 justify-center p-8 flex flex-col gap-2">
           <label htmlFor="" className="text-left">
             Message*
           </label>
