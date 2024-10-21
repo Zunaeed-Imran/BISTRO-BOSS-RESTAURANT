@@ -10,7 +10,7 @@ function ContactForm() {
         </p>
         <h1 className="text-4xl py-3">CONTACT FORM</h1>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-[#F3F3F3]">
         <label htmlFor="" className="text-left">
           Name*
         </label>
@@ -31,7 +31,7 @@ function ContactForm() {
           className=""
           placeholder="Enter your phone number"
         />
-        <SendMessage/>
+        <SendMessage />
       </div>
     </div>
   );
