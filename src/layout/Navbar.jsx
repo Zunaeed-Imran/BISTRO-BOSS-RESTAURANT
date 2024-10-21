@@ -14,7 +14,11 @@ function Navbar() {
           <Link to="/" className="hover:text-yellow-400">
             HOME
           </Link>
-          <p className="hover:text-yellow-400">CONTACT US</p>
+          <Link
+            to="/contactuspage"
+            className="hover:text-yellow-400">
+            CONTACT US
+          </Link>
           <p className="hover:text-yellow-400">DASHBOARD</p>
           <Link to="/ourmenu" className="hover:text-yellow-400">
             OUR MENU

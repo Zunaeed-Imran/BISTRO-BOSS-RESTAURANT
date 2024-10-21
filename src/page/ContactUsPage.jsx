@@ -1,7 +1,7 @@
 import HeroContactUs from "../components/HeroContactUs"
 
 
-function ContactUs() {
+function ContactUsPage() {
   return (
     <div>
       <HeroContactUs/>
@@ -9,4 +9,4 @@ function ContactUs() {
   )
 }
 
-export default ContactUs
+export default ContactUsPage
