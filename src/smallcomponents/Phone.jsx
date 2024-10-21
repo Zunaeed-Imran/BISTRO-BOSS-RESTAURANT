@@ -9,7 +9,8 @@ function Phone() {
       </div>
       <div className="bg-[#F3F3F3] p-10 mx-5 mb-5">
         <h1 className="font-bold py-3">PHONE</h1>
-        <p className="">01804468806</p>
+        <p className="py-2">01804468806</p>
+        <p>018044688**</p>
       </div>
     </div>
   );
