@@ -2,7 +2,7 @@
 
 function SendMessage() {
   return (
-    <div className="justify-start flex">
+    <div className="justify-start flex py-3">
       <button className="text-left items-center btn bg-[#996D29] hover:bg-[#865F24] text-white">
         Send Message
       </button>

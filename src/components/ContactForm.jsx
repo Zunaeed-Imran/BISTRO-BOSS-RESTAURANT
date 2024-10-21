@@ -24,10 +24,10 @@ function ContactForm() {
           </div>
           <div>
             <label htmlFor="" className="text-left">
-              Email
+              Email*
             </label>
             <input
-              type="text"
+              type="email"
               className="input input-bordered w-full"
               placeholder="Enter your email"
             />
@@ -35,15 +35,15 @@ function ContactForm() {
         </div>
         <div className="py-5 justify-center p-8">
           <label htmlFor="" className="text-left">
-            Message
+            Message*
           </label>
           <textarea
-            type="text"
+            type="longtext"
             className="textarea textarea-bordered w-full h-40"
             placeholder="Write your message here"
           />
           <label htmlFor="" className="text-left">
-            Phone
+            Phone*
           </label>
           <input
             type="number"
