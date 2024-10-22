@@ -9,6 +9,7 @@ import Navbar from './layout/Navbar'
 import OurMenu from './page/OurMenu'
 import OurShop from './page/OurShop'
 import ContactUsPage from './page/ContactUsPage'
+import Login from './page/Login'
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path: '/contactuspage',
         element: <ContactUsPage/>,
       },
+      {
+        path: '/login',
+        element: <Login/>
+      }
     ],
   },
 ]);
