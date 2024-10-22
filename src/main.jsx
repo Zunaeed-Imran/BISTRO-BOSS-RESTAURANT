@@ -10,6 +10,7 @@ import OurMenu from './page/OurMenu'
 import OurShop from './page/OurShop'
 import ContactUsPage from './page/ContactUsPage'
 import Login from './page/Login'
+import SignUp from './page/SignUp'
 
 
 const router = createBrowserRouter([
@@ -40,8 +41,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/login',
-        element: <Login/>
-      }
+        element: <Login/>,
+      },
+      {
+        path: '/signup',
+        element: <SignUp/>,
+      },
     ],
   },
 ]);
