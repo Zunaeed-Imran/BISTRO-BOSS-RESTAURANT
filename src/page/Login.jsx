@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import loginimg from "../assets/pageimage/login.png";
+import LoginLogo from "../smallcomponents/LoginLogo";
 
 function Login() {
   return (
@@ -28,32 +29,33 @@ function Login() {
                 placeholder="Your password"
                 className="input input-bordered w-full"
               />
+              <label
+                htmlFor=""
+                className="font-semibold m-1 text-left text-[#5D5FEF]"
+              >
+                <input
+                  type="text"
+                  placeholder="U A g l u o "
+                  className="input input-bordered w-full"
+                />
+                Reload Captcha
+              </label>
               <input
-                type="password"
-                placeholder="U A g l u o "
+                type="text"
+                placeholder="Type here"
                 className="input input-bordered w-full"
               />
-              <label htmlFor="" className="font-semibold m-1 text-left">
-                <label
-                  htmlFor=""
-                  className="font-semibold m-1 text-left text-[#5D5FEF]"
-                >
-                  Reload Captcha
-                </label>
-              </label>
               <Link to="/ok" className="btn bg-[#D9B782] text-white">
-                Login
+                Sign in
               </Link>
             </form>
-            <div className="py-5">
-              <p>Or Sign In with</p>
-            </div>
-            <p>
-              Dont have account?
+            <p className="py-3">
+              New here? Create a New Account
               <Link className="link" to="/signup">
                 Sign-Up
               </Link>
             </p>
+            <LoginLogo/>
           </div>
         </div>
       </div>
