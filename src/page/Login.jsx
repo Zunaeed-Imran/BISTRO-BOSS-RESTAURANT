@@ -21,13 +21,26 @@ function Login() {
                 className="input input-bordered w-full"
               />
               <label htmlFor="" className="font-semibold m-1 text-left">
-                Confirm Password
+                Password
               </label>
               <input
                 type="password"
                 placeholder="Your password"
                 className="input input-bordered w-full"
               />
+              <input
+                type="password"
+                placeholder="U A g l u o "
+                className="input input-bordered w-full"
+              />
+              <label htmlFor="" className="font-semibold m-1 text-left">
+                <label
+                  htmlFor=""
+                  className="font-semibold m-1 text-left text-[#5D5FEF]"
+                >
+                  Reload Captcha
+                </label>
+              </label>
               <Link to="/ok" className="btn bg-[#D9B782] text-white">
                 Login
               </Link>
