@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import loginimg from "../assets/pageimage/login.png";
 import LoginLogo from "../smallcomponents/LoginLogo";
+import PageTitle from "../services/PageTitle";
 
 function Login() {
   return (
     <div>
+      <PageTitle title={'Login'}/>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
         <div className="pt-32 items-center">
           <img src={loginimg} alt="" />

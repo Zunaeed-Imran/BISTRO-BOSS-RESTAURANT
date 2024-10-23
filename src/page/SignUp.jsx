@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import LoginLogo from "../smallcomponents/LoginLogo";
 import signupimg from "../assets/pageimage/signUp.png";
+import PageTitle from "../services/PageTitle";
 
 
 function SignUp() {
   return (
     <div>
+      <PageTitle title={'SignUp'}/>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
         <div className="pt-32 items-center justify-center">
           <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">

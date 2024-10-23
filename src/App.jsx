@@ -5,6 +5,7 @@ import FromOurMenu2 from './components/FromOurMenu2'
 import Hero from './components/Hero'
 import OrderOnline from './components/OrderOnline'
 import Testimonial from './components/Testimonial'
+import PageTitle from './services/PageTitle'
 
 function App() {
 
@@ -12,15 +13,16 @@ function App() {
   return (
     <>
       <div>
+        <PageTitle title={'Bistro-Boss'} />
         <Hero />
         <OrderOnline />
         <FromOurManu />
         <ChefRecommends />
         <FromOurMenu2 />
-        <Testimonial/>
+        <Testimonial />
       </div>
     </>
-  )
+  );
 }
 
 export default App
