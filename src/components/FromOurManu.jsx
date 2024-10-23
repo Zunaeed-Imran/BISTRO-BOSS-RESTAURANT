@@ -10,7 +10,7 @@ function FromOurManu() {
         <p className="italic text-[#D99904] text-xl">---Check it out---</p>
         <h1 className="text-4xl py-4">FROM OUR MENU</h1>
       </div>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <ManuCard
           img={ManuLogo}
           name={'ROAST DUCK BREAST ------------------'}
@@ -64,7 +64,7 @@ function FromOurManu() {
         <ViewFullManu />
       </div>
       <div>
-        <CallUs/>
+        <CallUs />
       </div>
     </div>
   );
