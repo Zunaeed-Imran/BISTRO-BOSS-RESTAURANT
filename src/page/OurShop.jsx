@@ -6,11 +6,11 @@ import PageTitle from "../services/PageTitle"
 function OurShop() {
   return (
     <div>
-      <PageTitle title={'OurShop'}/>
+      <PageTitle title={'OurShop'} />
       <HeroOurShop />
-      <OurShopManu/>
+      <OurShopManu />
     </div>
-  )
-}
+  );
+};
 
 export default OurShop
