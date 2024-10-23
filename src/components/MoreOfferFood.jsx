@@ -1,4 +1,3 @@
-import React from 'react'
 import ManuCard from '../cards/ManuCard'
 import logoimg from "..//assets/logo/textlogo.png";
 import Favurate from '../button/Favurate';
@@ -7,7 +6,7 @@ import BigManuCard from '../cards/BigManuCard';
 function MoreOfferFood() {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-3 py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 py-5">
         <ManuCard
           img={logoimg}
           name={"ROAST DUCK BREAST ------------------"}
