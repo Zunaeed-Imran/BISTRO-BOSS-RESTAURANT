@@ -83,7 +83,7 @@ function AllSmallManu() {
 
       {/* rest of the small card */}
 
-      <div className="grid grid-cols-2 gap-3 pt-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-24">
         <ManuCard
           img={ManuLogo}
           name={"ROAST DUCK BREAST ------------------"}
@@ -163,7 +163,7 @@ function AllSmallManu() {
         />
       </div>
       {/* rest of the small manu card */}
-      <div className='grid grid-cols-2 gap-3 py-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 py-10'>
         <ManuCard
           img={ManuLogo}
           name={"ROAST DUCK BREAST ------------------"}
