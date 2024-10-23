@@ -73,6 +73,7 @@ function MoreOfferFood() {
           }
         />
       </div>
+      {/* button */}
       <div className='pt-20'>
         <Favurate />
       </div>
