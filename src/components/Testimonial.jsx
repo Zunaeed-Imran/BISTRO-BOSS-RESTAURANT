@@ -4,10 +4,10 @@ import logoImage from "../assets/logo/quote-left.png";
 
 function Testimonial() {
   return (
-    <div className="py-20">
+    <div className="py-10">
       <div>
         <p className="text-xl text-[#D99904]">---What Our Clients Say---</p>
-        <h1 className="text-4xl py-5">TESTIMONIALS</h1>
+        <h1 className="text-4xl py-3">TESTIMONIALS</h1>
       </div>
       <div>
         <ReviewCard
