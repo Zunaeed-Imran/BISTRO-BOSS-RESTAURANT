@@ -13,7 +13,7 @@ function Login() {
         </div>
         <div className="pt-32 items-center justify-center">
           <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">
-            <form action="" className="flex flex-col gap-4">
+            <form action="" className="flex flex-col gap-4 px-6">
               <h1 className="text-3xl font-bold py-7">Login</h1>
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Email
