@@ -12,7 +12,7 @@ function OrderOnline() {
       <div className="justify items-center py-8">
         <OrderOnlineCard/>
       </div>
-      <div className="py-14">
+      <div className="pb-10">
         <OrderOnlineBigCard/>
       </div>
     </div>

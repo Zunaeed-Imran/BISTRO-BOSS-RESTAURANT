@@ -3,7 +3,7 @@ import BigManu from "../assets/cardimage/manucard2.png";
 function OrderOnlineBigCard() {
   return (
     <div
-      className="relative w-full bg-cover bg-center h-[500px] flex items-center justify-center rounded-md mb-28 top-0"
+      className="relative w-full bg-cover bg-center h-[500px] flex items-center justify-center rounded-md top-0"
       style={{ backgroundImage: `url(${BigManu})` }}
     >
       <div className="absolute bg-slate-50 flex flex-col justify-center items-center   w-4/5 h-3/6">
