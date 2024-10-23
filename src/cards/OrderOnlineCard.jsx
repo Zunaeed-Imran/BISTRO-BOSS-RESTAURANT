@@ -5,7 +5,7 @@ import dissert from "../assets/cardimage/dessert.png";
 
 function OrderOnlineCard() {
   return (
-    <div className="flex gap-2">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
       <div>
         <img src={salad} alt="salad" />
       </div>
@@ -19,7 +19,7 @@ function OrderOnlineCard() {
         <img src={dissert} alt="desserts" />
       </div>
     </div>
-  )
+  );
 }
 
 export default OrderOnlineCard
