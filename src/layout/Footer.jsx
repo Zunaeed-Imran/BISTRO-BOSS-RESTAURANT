@@ -5,7 +5,7 @@ import FollowUs from "../smallcomponents/FollowUs";
 function Footer() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full">
         <div className="bg-[#1F2937] text-white">
           <ContactUs />
         </div>

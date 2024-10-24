@@ -4,7 +4,7 @@ import heroImg from "../assets/pageimage/manu.jpg";
 function OurMenuHero() {
   return (
     <div
-      className="bg-cover bg-center h-[500px] relative justify-center top-0"
+      className="bg-cover w-full bg-center h-[500px] relative justify-center top-0"
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       <div className="bg-black bg-opacity-65  absolute flex flex-col justify-center items-center w-3/5 h-3/6 m-auto inset-0">

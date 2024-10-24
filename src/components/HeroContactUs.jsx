@@ -5,7 +5,7 @@ import contactus from "../assets/pageimage/contact.png";
 function HeroContactUs() {
   return (
     <div
-      className="relative bg-cover bg-center h-[500px]"
+      className="relative w-full bg-cover bg-center h-[500px]"
       style={{ backgroundImage: `url(${contactus})` }}
     >
       <div className="bg-black bg-opacity-60 absolute flex flex-col justify-center items-center m-auto inset-0  w-3/5 h-3/6 text-white">

@@ -7,7 +7,7 @@ function Login() {
   return (
     <div>
       <PageTitle title={'Login'}/>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
+      <div className="grid w-full grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
         <div className="pt-32 items-center">
           <img src={loginimg} alt="" />
         </div>

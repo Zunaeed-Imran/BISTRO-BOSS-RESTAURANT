@@ -8,7 +8,7 @@ function SignUp() {
   return (
     <div>
       <PageTitle title={'SignUp'}/>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
+      <div className="grid w-full grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
         <div className="pt-32 items-center justify-center">
           <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">
             <form action="" className="flex flex-col gap-4 px-4">
