@@ -3,8 +3,18 @@ import logo from "../assets/logo/logo.png";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import { useState } from "react";
 
 function Navbar() {
+// toggle nav option.
+  const [mobile, setMobile] = useState(false);
+
+  // nav visibility opetion.
+  const toggleMobile = () => {
+    setMobile(!mobile);
+  };
+
+
   return (
     <div className=" bg-black bg-opacity-50 top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full">
@@ -13,10 +23,10 @@ function Navbar() {
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center pr-20">
           {/* Button for mobile screen */}
-          <button className="md:hidden">
+          <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
           </button>
-          <div className="hidden md:flex gap-4">
+          <div className={`hidden gap-4 md:flex ${mobile ? 'block' : 'hidden'}`}>
             <Link to="/" className="hover:text-yellow-400">
               HOME
             </Link>
