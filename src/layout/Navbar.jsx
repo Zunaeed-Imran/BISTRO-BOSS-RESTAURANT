@@ -26,7 +26,7 @@ function Navbar() {
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
           </button>
-          <div className={`hidden gap-4 md:flex ${mobile ? 'block' : 'hidden'}`}>
+          <div className={`gap-4 md:flex ${mobile ? 'block' : 'hidden'}`}>
             <Link to="/" className="hover:text-yellow-400">
               HOME
             </Link>
