@@ -11,7 +11,7 @@ function ReviewCard({logo, img, desc, name}) {
         <p className="text-[#CD9003] text-3xl">{logo}</p>
       </div>
       <img src={img} alt="Logo Image" />
-      <p className='leading-relaxed'>{desc}</p>
+      <p className='leading-relaxed md:px-52 px-10'>{desc}</p>
       <h1 className="text-[#CD9003] text-2xl">{name}</h1>
     </div>
   );
