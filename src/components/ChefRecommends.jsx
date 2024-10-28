@@ -9,7 +9,7 @@ function ChefRecommends() {
         <p className="italic text-[#D99904] text-xl">---Should Try---</p>
         <h1 className="text-4xl py-7">CHEF RECOMMENDS</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 px-20">
         <ChefCard
           img={chifManu}
           name={'Caeser Salad'}

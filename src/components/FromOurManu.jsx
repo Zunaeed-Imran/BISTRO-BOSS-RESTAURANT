@@ -6,7 +6,6 @@ import chicken from "../assets/SmallMenu/CHICKEN AND WALNUT SALAD.png";
 import fish from "../assets/SmallMenu/FISH PARMENTIER.png";
 import rostPork from "../assets/SmallMenu/ROASTED PORK BELLY.png";
 import ViewFullManu from "../button/ViewFullManu";
-import CallUs from "../smallcomponents/CallUs";
 
 function FromOurManu() {
   return (
@@ -67,9 +66,6 @@ function FromOurManu() {
       </div>
       <div className="py-7">
         <ViewFullManu />
-      </div>
-      <div>
-        <CallUs />
       </div>
     </div>
   );
