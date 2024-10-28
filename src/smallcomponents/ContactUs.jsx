@@ -2,7 +2,7 @@
 
 function ContactUs() {
   return (
-    <div className="grid gap-1 p-6">
+    <div className="grid gap-1 pt-10">
       <h1 className="text-2xl py-3">CONTACT US</h1>
       <p>123 ABS Street, Uni 21, Bangladesh</p>
       <p>+88 123456789</p>
