@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 
 function ManuCard({img, name, desc, price}) {
   return (
-    <div className="flex gap-3 px-4">
+    <div className="flex justify-center gap-3 px-4">
       <div>
         <img src={img} alt="logo image" />
       </div>
-      <div>
+      <div className='flex flex-col justify-center items-center'>
         <p className="font-cinzel text-xl font-semibold text-left">{name}</p>
         <p className='text-left'>{desc}</p>
       </div>
