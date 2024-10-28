@@ -7,9 +7,9 @@ import PageTitle from "../services/PageTitle";
 function SignUp() {
   return (
     <div>
-      <PageTitle title={'SignUp'}/>
+      <PageTitle title={'SignUp'} />
       <div className="grid w-full grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
-        <div className="pt-32 items-center justify-center">
+        <div className="md:pt-32 md:p-8 items-center justify-center">
           <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">
             <form action="" className="flex flex-col gap-4 px-4">
               <h1 className="text-3xl font-bold py-7">Sign Up</h1>
@@ -51,7 +51,7 @@ function SignUp() {
           </div>
         </div>
         {/* image portion fo this page */}
-        <div className="pt-32 items-center">
+        <div className="md:pt-32 items-center md:p-8">
           <img src={signupimg} alt="" />
         </div>
       </div>
