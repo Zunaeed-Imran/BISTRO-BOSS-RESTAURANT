@@ -6,7 +6,7 @@ function OurShopManu() {
   return (
     <div>
       {/* nav button of this page */}
-      <div className="flex gap-2 text-xl justify-center items-center pt-20">
+      <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center pt-20">
         <button className="hover:text-[#D99904] hover:underline decoration-double btn">
           SALAD
         </button>
