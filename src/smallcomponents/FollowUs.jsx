@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 function FollowUs() {
   return (
     <div className="">
-      <div className="pt-10">
+      <div className="">
         <h1 className="text-2xl pb-5">Follow US</h1>
         <p>Join us on social media</p>
       </div>
