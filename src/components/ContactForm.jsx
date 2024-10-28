@@ -10,7 +10,7 @@ function ContactForm() {
         </p>
         <h1 className="text-4xl py-3">CONTACT FORM</h1>
       </div>
-      <div className="flex flex-col bg-[#F3F3F3]">
+      <div className="flex flex-col bg-[#F3F3F3] md:mx-32 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 p-8">
           <div className="flex flex-col gap-2">
             <label htmlFor="" className="text-left">
