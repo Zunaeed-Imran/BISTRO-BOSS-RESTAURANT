@@ -1,5 +1,10 @@
 import ManuCard from '../cards/ManuCard'
-import logoimg from "..//assets/logo/textlogo.png";
+import roastDuck from '../assets/SmallMenu/ROAST DUCK BREAST.png';
+import tune from '../assets/SmallMenu/TUNA NIÇOISE.png';
+import escalape from '../assets/SmallMenu/ESCALOPE DE VEAU .png';
+import chicken from '../assets/SmallMenu/CHICKEN AND WALNUT SALAD.png';
+import fish from '../assets/SmallMenu/FISH PARMENTIER.png';
+import rostPork from '../assets/SmallMenu/ROASTED PORK BELLY.png';
 import Favurate from '../button/Favurate';
 import BigManuCard from '../cards/BigManuCard';
 
@@ -8,7 +13,7 @@ function MoreOfferFood() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 py-5 md:px-20">
         <ManuCard
-          img={logoimg}
+          img={roastDuck}
           name={"ROAST DUCK BREAST ------------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
@@ -16,7 +21,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
         <ManuCard
-          img={logoimg}
+          img={tune}
           name={"TUNA NIÇOISE ------------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
@@ -24,7 +29,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
         <ManuCard
-          img={logoimg}
+          img={escalape}
           name={"ESCALOPE DE VEAU ------------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
@@ -32,7 +37,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
         <ManuCard
-          img={logoimg}
+          img={chicken}
           name={"CHICKEN AND WALNUT SALAD ---------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
@@ -40,7 +45,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
         <ManuCard
-          img={logoimg}
+          img={fish}
           name={"FISH PARMENTIER ------------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
@@ -48,7 +53,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
         <ManuCard
-          img={logoimg}
+          img={rostPork}
           name={"ROASTED PORK BELLY ------------------"}
           desc={
             "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce"
