@@ -19,7 +19,9 @@ function Navbar() {
     <div className=" bg-black bg-opacity-50 top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full">
         <div className="justify items-center pl-5">
-          <img src={logo} alt="logo" />
+          <Link to={'/'}>
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center pr-20">
           {/* Button for mobile screen */}
