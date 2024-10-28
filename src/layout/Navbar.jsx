@@ -53,7 +53,7 @@ function Navbar() {
               LOGIN <IoMdLogIn size={'1.5rem'} />
             </Link>
             <Link to={'/signup'} className="hover:text-yellow-400 flex gap-2">
-              SIGN OUT <CgProfile size={'1.5rem'} />
+              SIGN UP <CgProfile size={'1.5rem'} />
             </Link>
           </div>
         </div>
