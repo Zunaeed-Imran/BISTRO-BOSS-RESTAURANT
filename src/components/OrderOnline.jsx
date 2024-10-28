@@ -9,10 +9,10 @@ function OrderOnline() {
         <p className="text-[#D99904] italic pb-3">---Form 11:00am to 10:00pm---</p>
         <h1 className="text-4xl">ORDER ONLINE</h1>
       </div>
-      <div className="justify items-center py-8">
+      <div className="justify items-center py-8 md:px-20">
         <OrderOnlineCard/>
       </div>
-      <div className="pb-10">
+      <div className="pb-10 md:px-20">
         <OrderOnlineBigCard/>
       </div>
     </div>
