@@ -11,7 +11,7 @@ function Address() {
         <div className="bg-[#F3F3F3] p-10 mx-5 mb-5">
           <h1 className="font-bold py-3">ADDRESS</h1>
           <p className="py-2">
-            Level 10, Software Technology Park,
+            Level 10, Technology Park,
           </p>
           <p>Jashore - 7400, Bangladesh</p>
         </div>
