@@ -4,6 +4,7 @@ import { RiShoppingCartLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import { IoMdLogIn } from "react-icons/io";
 
 function Navbar() {
 // toggle nav option.
@@ -47,6 +48,9 @@ function Navbar() {
             </Link>
             <Link to="/ourshop" className="hover:text-yellow-400 flex gap-2">
               OUR SHOP <RiShoppingCartLine size={'1.5rem'} />
+            </Link>
+            <Link to={'/login'} className="hover:text-yellow-400 flex gap-2">
+              LOGIN <IoMdLogIn size={'1.5rem'} />
             </Link>
             <Link to={'/signup'} className="hover:text-yellow-400 flex gap-2">
               SIGN OUT <CgProfile size={'1.5rem'} />
