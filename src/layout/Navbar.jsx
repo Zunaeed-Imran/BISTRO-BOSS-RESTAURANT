@@ -40,7 +40,7 @@ function Navbar() {
             <Link to="/contactuspage" className="hover:text-yellow-400">
               CONTACT US
             </Link>
-            <Link to="/login" className="hover:text-yellow-400">
+            <Link to="/error" className="hover:text-yellow-400">
               DASHBOARD
             </Link>
             <Link to="/ourmenu" className="hover:text-yellow-400">
