@@ -1,5 +1,8 @@
 import ManuCard from "../cards/ManuCard";
-import manuImg from "../assets/logo/textlogo.png";
+import rostDuck from '../assets/SmallMenu/ROAST DUCK BREAST.png';
+import tuna from "../assets/SmallMenu/TUNA NIÇOISE.png";
+import escalpe from '../assets/SmallMenu/ESCALOPE DE VEAU .png';
+import chicken from '../assets/SmallMenu/CHICKEN AND WALNUT SALAD.png';
 import Favurate from "../button/Favurate";
 import BigManuCard from "../cards/BigManuCard";
 
@@ -12,7 +15,7 @@ function TodayOffer() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pb-12">
         <ManuCard
-          img={manuImg}
+          img={rostDuck}
           name={'ROAST DUCK BREAST ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
@@ -20,7 +23,7 @@ function TodayOffer() {
           price={'$14.5'}
         />
         <ManuCard
-          img={manuImg}
+          img={tuna}
           name={'TUNA NIÇOISE ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
@@ -28,7 +31,7 @@ function TodayOffer() {
           price={'$14.5'}
         />
         <ManuCard
-          img={manuImg}
+          img={escalpe}
           name={'ESCALOPE DE VEAU ------------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
@@ -36,7 +39,7 @@ function TodayOffer() {
           price={'$14.5'}
         />
         <ManuCard
-          img={manuImg}
+          img={chicken}
           name={'CHICKEN AND WALNUT SALAD ---------------'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
