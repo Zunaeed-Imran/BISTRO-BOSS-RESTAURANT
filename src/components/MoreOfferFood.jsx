@@ -59,7 +59,7 @@ function MoreOfferFood() {
       <div className="py-5">
         <Favurate />
       </div>
-      <div>
+      <div className='md:px-20'>
         <BigManuCard
           name={"PIZZA"}
           desc={

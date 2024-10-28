@@ -6,7 +6,7 @@ import BigManuCard from '../cards/BigManuCard';
 function AllSmallManu() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 py-5 md:px-20">
         <ManuCard
           img={ManuLogo}
           name={"ROAST DUCK BREAST ------------------"}
@@ -83,7 +83,7 @@ function AllSmallManu() {
 
       {/* rest of the small card */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-24 md:px-20">
         <ManuCard
           img={ManuLogo}
           name={"ROAST DUCK BREAST ------------------"}
@@ -154,7 +154,7 @@ function AllSmallManu() {
         <Favurate />
       </div>
       {/* anothe Big Manu Item */}
-      <div>
+      <div className='md:px-20'>
         <BigManuCard
           name={"SOUPS"}
           desc={
@@ -163,7 +163,7 @@ function AllSmallManu() {
         />
       </div>
       {/* rest of the small manu card */}
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 py-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 py-10 md:px-20'>
         <ManuCard
           img={ManuLogo}
           name={"ROAST DUCK BREAST ------------------"}
