@@ -1,10 +1,9 @@
 import { FaStar } from "react-icons/fa";
 import ReviewCard from "../cards/ReviewCard";
 
+// REACT SLIDER PACKAGE
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-
 import Slider from 'react-slick';
 
 // image content importing.
