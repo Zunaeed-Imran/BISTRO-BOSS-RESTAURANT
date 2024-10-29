@@ -11,8 +11,8 @@ function Testimonial() {
       </div>
       <div>
         <ReviewCard
-          logo={<FaStar />}
           img={logoImage}
+          logo={<FaStar />}
           desc={
             'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
           }
