@@ -30,7 +30,7 @@ function Testimonial() {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
     };
 
@@ -48,7 +48,7 @@ function Testimonial() {
               img={man1}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -58,7 +58,7 @@ function Testimonial() {
               img={man2}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -68,7 +68,7 @@ function Testimonial() {
               img={man3}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -78,7 +78,7 @@ function Testimonial() {
               img={man4}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -88,7 +88,7 @@ function Testimonial() {
               img={man5}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -98,7 +98,7 @@ function Testimonial() {
               img={man6}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -108,7 +108,7 @@ function Testimonial() {
               img={man7}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -118,7 +118,7 @@ function Testimonial() {
               img={man8}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -128,7 +128,7 @@ function Testimonial() {
               img={man9}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -138,7 +138,7 @@ function Testimonial() {
               img={man10}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -148,7 +148,7 @@ function Testimonial() {
               img={man11}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -158,7 +158,7 @@ function Testimonial() {
               img={man12}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
@@ -168,7 +168,7 @@ function Testimonial() {
               img={man13}
               logo={<FaStar />}
               desc={
-                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose'
               }
               name={'JANE DOE'}
             />
