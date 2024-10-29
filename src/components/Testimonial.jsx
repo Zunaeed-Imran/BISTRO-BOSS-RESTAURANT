@@ -1,5 +1,12 @@
 import { FaStar } from "react-icons/fa";
 import ReviewCard from "../cards/ReviewCard";
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+
+import Slider from 'react-slick';
+
 // image content importing.
 import man1 from "../assets/people/1.png";
 import man2 from "../assets/people/2.png";
@@ -18,117 +25,156 @@ import man13 from "../assets/people/13.png";
 
 
 function Testimonial() {
+
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
+
+
   return (
     <div className="py-10">
       <div>
         <p className="text-xl text-[#D99904]">---What Our Clients Say---</p>
         <h1 className="text-4xl py-3">TESTIMONIALS</h1>
       </div>
-      <div>
-        <ReviewCard
-          img={man1}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man2}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man3}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man4}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man5}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man6}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man7}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man8}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man9}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man10}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man11}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man12}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
-        <ReviewCard
-          img={man13}
-          logo={<FaStar />}
-          desc={
-            'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-          }
-          name={'JANE DOE'}
-        />
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div>
+            <ReviewCard
+              img={man1}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man2}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man3}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man4}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man5}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man6}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man7}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man8}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man9}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man10}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man11}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man12}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+          <div>
+            <ReviewCard
+              img={man13}
+              logo={<FaStar />}
+              desc={
+                'Various version have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+              }
+              name={'JANE DOE'}
+            />
+          </div>
+        </Slider>
       </div>
     </div>
   );
