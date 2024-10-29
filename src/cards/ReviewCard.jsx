@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function ReviewCard({logo, img, desc, name}) {
   return (
     <div className='flex flex-col gap-5 justify-center items-center pt-7'>
-      <img src={img} alt="Logo Image" />
+      <img src={img} alt="Logo Image" className='h-48' />
       <div className="flex">
         <p className="text-[#CD9003] text-3xl">{logo}</p>
         <p className="text-[#CD9003] text-3xl">{logo}</p>
