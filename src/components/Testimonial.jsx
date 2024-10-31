@@ -26,14 +26,16 @@ import man13 from "../assets/people/13.png";
 function Testimonial() {
 
 
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-    };
-
+   const settings = {
+     dots: true,
+     infinite: true,
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     autoplay: true,
+     speed: 5000,
+     autoplaySpeed: 5000,
+     cssEase: 'linear',
+   };
 
   return (
     <div className="py-10">
