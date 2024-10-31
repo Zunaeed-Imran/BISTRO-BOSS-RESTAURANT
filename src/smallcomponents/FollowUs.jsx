@@ -2,8 +2,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function FollowUs() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="justify-center items-center text-center">
+    <div className="flex flex-col justify-start items-start">
+      <div className="justify-start items-start text-left">
         <h1 className="text-2xl pb-5">Follow US</h1>
         <p>Join us on social media</p>
       </div>
