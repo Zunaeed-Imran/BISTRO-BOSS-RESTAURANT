@@ -1,6 +1,6 @@
 
+import { Outlet } from "react-router-dom";
 import NavButton from "../button/NavButton";
-import SaladSection from "../smallcomponents/SaladSection";
 
 function OurShopManu() {
   return (
@@ -8,7 +8,7 @@ function OurShopManu() {
       {/* nav button of this page */}
         <NavButton/>
       {/* start the card section here */}
-        <SaladSection/>
+        <Outlet/>
     </div>
   );
 }
