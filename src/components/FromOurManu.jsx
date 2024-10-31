@@ -11,8 +11,10 @@ function FromOurManu() {
   return (
     <div>
       <div className="">
-        <p className="italic text-[#D99904] text-xl">---Check it out---</p>
-        <h1 className="text-4xl py-4">FROM OUR MENU</h1>
+        <p className="italic text-[#D99904] pb-3 pt-6">
+          ---Check it out---
+        </p>
+        <h1 className="text-4xl pb-8">FROM OUR MENU</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:px-20">
         <ManuCard
