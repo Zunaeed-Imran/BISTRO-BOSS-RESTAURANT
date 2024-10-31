@@ -33,7 +33,14 @@ const router = createBrowserRouter([
       },
       {
         path: '/ourshop',
-        element: <OurShop/>,
+        element: <OurShop />,
+        // making new route for our shop tab
+        children: [
+          {
+            path: '/',
+            element: <></>,
+          },
+        ],
       },
       {
         path: '/contactuspage',
