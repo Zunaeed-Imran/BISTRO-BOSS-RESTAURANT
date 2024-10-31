@@ -53,7 +53,7 @@ function Login() {
             </form>
             <p className="py-3">
               New here? Create a New Account
-              <Link className="link" to="/signup">
+              <Link className="link ml-2" to="/signup">
                 Sign-Up
               </Link>
             </p>

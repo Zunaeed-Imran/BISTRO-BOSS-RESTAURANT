@@ -43,7 +43,7 @@ function SignUp() {
             </form>
             <p className="py-3">
               Already registered? Go to log in
-              <Link className="link" to="/login">
+              <Link className="link ml-2" to="/login">
                 Log-in
               </Link>
             </p>
