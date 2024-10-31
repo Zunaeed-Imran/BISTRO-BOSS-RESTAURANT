@@ -4,7 +4,7 @@ import SendMessage from "../button/SendMessage";
 function ContactForm() {
   return (
     <div>
-      <div>
+      <div className="py-6">
         <p className="italic font-semibold text-[#D99904]">
           ---Send Us a Message---
         </p>
