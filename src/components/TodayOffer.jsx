@@ -13,10 +13,10 @@ function TodayOffer() {
         <p className="italic font-semibold text-[#D99904]">---Dont miss---</p>
         <h1 className="text-4xl">TODAYS OFFER</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pb-12 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-12 md:px-20">
         <ManuCard
           img={rostDuck}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'ROAST DUCK BREAST ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -24,7 +24,7 @@ function TodayOffer() {
         />
         <ManuCard
           img={tuna}
-          name={'TUNA NIÇOISE ------------------'}
+          name={'TUNA NIÇOISE ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -32,7 +32,7 @@ function TodayOffer() {
         />
         <ManuCard
           img={escalpe}
-          name={'ESCALOPE DE VEAU ------------------'}
+          name={'ESCALOPE DE VEAU ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -40,7 +40,7 @@ function TodayOffer() {
         />
         <ManuCard
           img={chicken}
-          name={'CHICKEN AND WALNUT SALAD ---------------'}
+          name={'CHICKEN AND WALNUT SALAD ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
