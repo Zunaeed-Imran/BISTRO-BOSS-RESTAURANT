@@ -19,7 +19,7 @@ function FromOurManu() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:px-20">
         <ManuCard
           img={roastDuck}
-          name={'ROAST DUCK BREAST ------------------'}
+          name={'ROAST DUCK BREAST ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -27,7 +27,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={tune}
-          name={'TUNA NIÇOISE ------------------'}
+          name={'TUNA NIÇOISE ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -35,7 +35,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={escalape}
-          name={'ESCALOPE DE VEAU ------------------'}
+          name={'ESCALOPE DE VEAU ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -43,7 +43,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={chicken}
-          name={'CHICKEN AND WALNUT SALAD ---------------'}
+          name={'CHICKEN AND WALNUT SALAD ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -51,7 +51,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={fish}
-          name={'FISH PARMENTIER ------------------'}
+          name={'FISH PARMENTIER ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
@@ -59,7 +59,7 @@ function FromOurManu() {
         />
         <ManuCard
           img={rostPork}
-          name={'ROASTED PORK BELLY ------------------'}
+          name={'ROASTED PORK BELLY ---'}
           desc={
             'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'
           }
