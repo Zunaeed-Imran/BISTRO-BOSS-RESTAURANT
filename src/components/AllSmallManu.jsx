@@ -84,11 +84,6 @@ function AllSmallManu() {
           }
           price={'$14.5'}
         />
-      </div>
-
-      {/* rest of the small card */}
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-24 md:px-20">
         <ManuCard
           img={escalape}
           name={'ROAST DUCK BREAST ------------------'}
@@ -168,7 +163,7 @@ function AllSmallManu() {
         />
       </div>
       {/* rest of the small manu card */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 py-10 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 md:px-20">
         <ManuCard
           img={roastDuck}
           name={'ROAST DUCK BREAST ------------------'}
