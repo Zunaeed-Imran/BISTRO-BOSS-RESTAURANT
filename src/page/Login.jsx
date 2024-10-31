@@ -11,7 +11,7 @@ function Login() {
         <div className="md:pt-32 items-center md:p-8">
           <img src={loginimg} alt="" />
         </div>
-        <div className="md:pt-32 items-center justify-center md:p-8">
+        <div className="md:pt-32 items-center justify-center md:p-20">
           <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">
             <form action="" className="flex flex-col gap-4 px-6">
               <h1 className="text-3xl font-bold py-7">Login</h1>
