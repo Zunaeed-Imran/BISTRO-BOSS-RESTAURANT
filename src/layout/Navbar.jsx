@@ -17,7 +17,7 @@ function Navbar() {
 
 
   return (
-    <div className=" bg-black bg-opacity-50 top-0 fixed w-full z-20 p-0 m-0">
+    <div className=" bg-black  top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full px-20">
         <div className="justify items-center">
           <Link to={'/'}>
