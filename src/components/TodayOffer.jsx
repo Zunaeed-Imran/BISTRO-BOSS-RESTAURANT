@@ -13,7 +13,7 @@ function TodayOffer() {
         <p className="italic font-semibold text-[#D99904]">---Dont miss---</p>
         <h1 className="text-4xl py-3">TODAYS OFFER</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-12 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:px-20">
         <ManuCard
           img={rostDuck}
           name={'ROAST DUCK BREAST ---'}
@@ -47,10 +47,10 @@ function TodayOffer() {
           price={'$14.5'}
         />
       </div>
-      <div className="py-5">
+      <div className="py-10">
         <Favurate />
       </div>
-      <div className="py-8 md:px-20">
+      <div className=" md:px-20">
         <BigManuCard
           name={'DESSERTS'}
           desc={

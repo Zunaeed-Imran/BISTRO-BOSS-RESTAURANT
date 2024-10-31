@@ -155,7 +155,7 @@ function AllSmallManu() {
         />
       </div>
       {/* lower button  */}
-      <div className="py-7">
+      <div className="py-10">
         <Favurate />
       </div>
       {/* anothe Big Manu Item */}
@@ -219,7 +219,7 @@ function AllSmallManu() {
         />
       </div>
       {/* end of the page fav button */}
-      <div className="py-5">
+      <div className="py-10">
         <Favurate />
       </div>
     </div>

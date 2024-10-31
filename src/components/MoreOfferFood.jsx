@@ -11,7 +11,7 @@ import BigManuCard from '../cards/BigManuCard';
 function MoreOfferFood() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-5 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-5 md:px-20">
         <ManuCard
           img={roastDuck}
           name={"ROAST DUCK BREAST ------------------"}
@@ -61,7 +61,7 @@ function MoreOfferFood() {
           price={"$14.5"}
         />
       </div>
-      <div className="py-5">
+      <div className="py-10">
         <Favurate />
       </div>
       <div className='md:px-20'>
@@ -79,7 +79,7 @@ function MoreOfferFood() {
         />
       </div>
       {/* button */}
-      <div className='pt-20'>
+      <div className='py-10'>
         <Favurate />
       </div>
     </div>
