@@ -6,7 +6,7 @@ function OurShopManu() {
   return (
     <div>
       {/* nav button of this page */}
-      <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center pt-20">
+      <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center py-7">
         <button className="hover:text-[#D99904] hover:underline decoration-double btn">
           SALAD
         </button>
@@ -24,7 +24,7 @@ function OurShopManu() {
         </button>
       </div>
       {/* start the card section here */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pb-20 px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pb-10 px-20">
         <ChefCard
           img={chifManu}
           name={'Caeser Salad'}
