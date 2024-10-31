@@ -24,7 +24,7 @@ function Navbar() {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        <div className="flex gap-4 text-white font-bold justify items-center pr-20">
+        <div className="flex gap-4 text-white font-bold justify items-center">
           {/* Button for mobile screen */}
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
