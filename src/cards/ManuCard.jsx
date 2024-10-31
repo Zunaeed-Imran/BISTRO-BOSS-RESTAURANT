@@ -4,7 +4,7 @@ function ManuCard({img, name, desc, price}) {
   return (
     <div className="flex justify-center gap-3 px-4">
       <div>
-        <img src={img} alt="logo image" />
+        <img src={img} alt="logo image" className='hover:opacity-50' />
       </div>
       <div className='flex flex-col justify-center items-center'>
         <p className="font-cinzel text-xl font-semibold text-left">{name}</p>
