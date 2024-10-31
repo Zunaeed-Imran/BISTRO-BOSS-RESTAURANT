@@ -11,7 +11,6 @@ import OurShop from './page/OurShop'
 import ContactUsPage from './page/ContactUsPage'
 import Login from './page/Login'
 import SignUp from './page/SignUp'
-import NavButton from './button/NavButton'
 
 
 const router = createBrowserRouter([
@@ -35,17 +34,6 @@ const router = createBrowserRouter([
       {
         path: '/ourshop',
         element: <OurShop/>,
-      },
-      {
-        path: '/ourshopmenu', 
-        element: <NavButton/>,
-        // we make this for make outlent tab.
-        children: [
-          {
-            path: '/nav',
-            element: <NavButton/>,
-          },
-        ],
       },
       {
         path: '/contactuspage',
