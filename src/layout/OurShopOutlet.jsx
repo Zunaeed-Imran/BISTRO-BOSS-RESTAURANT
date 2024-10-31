@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom"
-import OurShop from "../page/OurShop"
+import OurShopManu from "../components/OurShopManu"
 
 
 function OurShopOutlet() {
   return (
     <div>
-      <OurShop/>
+      <OurShopManu/>
       <Outlet/>
     </div>
   )
