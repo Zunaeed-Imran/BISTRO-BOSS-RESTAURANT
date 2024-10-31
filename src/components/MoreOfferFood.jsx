@@ -66,21 +66,11 @@ function MoreOfferFood() {
       </div>
       <div className='md:px-20'>
         <BigManuCard
-          name={"PIZZA"}
-          desc={
-            "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          }
-        />
-        <BigManuCard
           name={"SALADS"}
           desc={
             "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
           }
         />
-      </div>
-      {/* button */}
-      <div className='py-10'>
-        <Favurate />
       </div>
     </div>
   );
