@@ -9,7 +9,7 @@ function SoupSection() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 pb-10 px-20">
         <ChefCard
           img={chifManu}
-          name={'Caeser Salad'}
+          name={'Soup'}
           desc={'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'}
           button={<AddToCart />}
         />
