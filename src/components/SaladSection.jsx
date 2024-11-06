@@ -1,12 +1,12 @@
 import Favurate from '../button/Favurate';
 import BigManuCard from '../cards/BigManuCard';
-import ManuCard from '../cards/ManuCard';
 import roastDuck from '../assets/SmallMenu/ROAST DUCK BREAST.png';
 import tune from '../assets/SmallMenu/TUNA NIÇOISE.png';
 import escalape from '../assets/SmallMenu/ESCALOPE DE VEAU .png';
 import chicken from '../assets/SmallMenu/CHICKEN AND WALNUT SALAD.png';
 import fish from '../assets/SmallMenu/FISH PARMENTIER.png';
 import rostPork from '../assets/SmallMenu/ROASTED PORK BELLY.png';
+import ManuCardPagination from '../cards/ManuCardPagination';
 
 function SaladSection() {
   // Create an array of menu items
@@ -97,7 +97,7 @@ function SaladSection() {
 
       {/* Pass the menuItems array as a single items prop to ManuCard */}
       <div className="py-5 md:px-20">
-        <ManuCard items={menuItems} />
+        <ManuCardPagination items={menuItems} />
       </div>
 
       {/* lower button */}
