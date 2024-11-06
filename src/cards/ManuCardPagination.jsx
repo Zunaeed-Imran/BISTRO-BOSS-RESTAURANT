@@ -26,39 +26,45 @@ function ManuCardPagination({ items }) {
 
 
     return (
-      <div className="flex justify-center gap-3 px-4">
+      <div className="flex flex-col items-center gap-3 px-4">
         {/* Display current items */}
-        {currentItems.length > 0 ? (
-          currentItems.map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <img
-                src={item.img}
-                alt="logo image"
-                className="hover:opacity-50"
-              />
-              <p className="font-cinzel text-xl font-semibold">{item.name}</p>
-              <p>{item.desc}</p>
-              <p className="text-[#D99904] font-semibold">{item.price}</p>
-            </div>
-          ))
-        ) : (
-          <p>No items available.</p>
-        )}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {currentItems.length > 0 ? (
+            currentItems.map((item, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img
+                  src={item.img}
+                  alt="logo image"
+                  className="hover:opacity-50"
+                />
+                <p className="font-cinzel text-xl font-semibold text-left">
+                  {item.name}
+                </p>
+                <p className="text-left">{item.desc}</p>
+                <p className="text-[#D99904] font-semibold">{item.price}</p>
+              </div>
+            ))
+          ) : (
+            <p>No items available.</p>
+          )}
+        </div>
 
-        {/* Pagination controls */}
-        <ReactPaginate
-          breakLabel="..."
-          nextLabel="Next >"
-          onPageChange={handlePageClick}
-          pageRangeDisplayed={3}
-          pageCount={pageCount}
-          previousLabel="< Previous"
-          containerClassName="pagination"
-          pageLinkClassName="page-link"
-          previousLinkClassName="prev-link"
-          nextLinkClassName="next-link"
-          activeClassName="active"
-        />
+        {/* Pagination controls at the bottom */}
+        <div className="pagination-container mt-10">
+          <ReactPaginate
+            breakLabel="..."
+            nextLabel="Next >"
+            onPageChange={handlePageClick}
+            pageRangeDisplayed={3}
+            pageCount={pageCount}
+            previousLabel="< Previous"
+            containerClassName="pagination flex justify-center"
+            pageLinkClassName="page-link"
+            previousLinkClassName="prev-link"
+            nextLinkClassName="next-link"
+            activeClassName="active"
+          />
+        </div>
       </div>
     );
 }
