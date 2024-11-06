@@ -1,0 +1,27 @@
+/* Countries.css */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.page-link, .prev-link, .next-link {
+  margin: 0 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  color: #007bff;
+}
+
+.page-link:hover, .prev-link:hover, .next-link:hover {
+  background-color: #f1f1f1;
+}
+
+.active .page-link {
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
