@@ -6,8 +6,6 @@ import chicken from '../assets/SmallMenu/CHICKEN AND WALNUT SALAD.png';
 import fish from '../assets/SmallMenu/FISH PARMENTIER.png';
 import rostPork from '../assets/SmallMenu/ROASTED PORK BELLY.png';
 import Favurate from '../button/Favurate';
-import BigManuCard from '../cards/BigManuCard';
-
 function MoreOfferFood() {
   return (
     <div>
@@ -63,14 +61,6 @@ function MoreOfferFood() {
       </div>
       <div className="py-10">
         <Favurate />
-      </div>
-      <div className='md:px-20'>
-        <BigManuCard
-          name={"SALADS"}
-          desc={
-            "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          }
-        />
       </div>
     </div>
   );
