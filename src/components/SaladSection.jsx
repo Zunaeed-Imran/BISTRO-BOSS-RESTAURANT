@@ -47,6 +47,42 @@ function SaladSection() {
       desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
       price: '$14.5',
     },
+    {
+      img: roastDuck,
+      name: 'ROAST DUCK BREAST ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
+    {
+      img: tune,
+      name: 'TUNA NIÇOISE ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
+    {
+      img: escalape,
+      name: 'ESCALOPE DE VEAU ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
+    {
+      img: chicken,
+      name: 'CHICKEN AND WALNUT SALAD ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
+    {
+      img: fish,
+      name: 'FISH PARMENTIER ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
+    {
+      img: rostPork,
+      name: 'ROASTED PORK BELLY ---',
+      desc: 'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce',
+      price: '$14.5',
+    },
     // Add more items as needed
   ];
 
