@@ -1,5 +1,5 @@
 import AddToCart from '../button/AddToCart';
-import chifManu from '../assets/cardimage/card.png';
+import chifManu from '../assets/cardimage/dessertAll.png';
 import ChefCard from '../cards/ChefCard';
 
 function DessertSection() {
