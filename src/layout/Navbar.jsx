@@ -32,7 +32,7 @@ function Navbar() {
           <div
             className={`${
               mobile ? 'flex' : 'hidden'
-            } flex-col gap-4 md:flex md:flex-row`}
+            } flex-col gap-4 text-left md:flex md:flex-row`}
           >
             <Link to="/" className="hover:text-yellow-400">
               HOME
