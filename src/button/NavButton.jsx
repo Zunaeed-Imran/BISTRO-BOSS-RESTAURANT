@@ -9,6 +9,12 @@ function NavButton() {
           to={'saladsection'}
           className="hover:text-[#D99904] hover:underline decoration-double btn"
         >
+          AllMenu
+        </Link>
+        <Link
+          to={'saladsection'}
+          className="hover:text-[#D99904] hover:underline decoration-double btn"
+        >
           SALAD
         </Link>
         <Link
