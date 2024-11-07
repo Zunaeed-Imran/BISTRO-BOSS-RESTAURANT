@@ -16,6 +16,7 @@ import PizzaSection from './smallcomponents/PizzaSection'
 import SoupSection from './smallcomponents/SoupSection'
 import DessertSection from './smallcomponents/DessertSection'
 import DrinkSection from './smallcomponents/DrinkSection'
+import AllMenuSection from './smallcomponents/AllMenuSection'
 
 
 const router = createBrowserRouter([
@@ -41,38 +42,42 @@ const router = createBrowserRouter([
         element: <OurShop />,
         children: [
           {
+            path: 'allsection',
+            element: <AllMenuSection />,
+          },
+          {
             path: 'saladsection',
-            element: <SaladSection/>,
+            element: <SaladSection />,
           },
           {
             path: 'pizzasection',
-            element: <PizzaSection/>,
+            element: <PizzaSection />,
           },
           {
             path: 'soupsection',
-            element: <SoupSection/>,
+            element: <SoupSection />,
           },
           {
             path: 'dessertsection',
-            element: <DessertSection/>,
+            element: <DessertSection />,
           },
           {
             path: 'drinksection',
-            element: <DrinkSection/>,
+            element: <DrinkSection />,
           },
         ],
       },
       {
         path: '/contactuspage',
-        element: <ContactUsPage/>,
+        element: <ContactUsPage />,
       },
       {
         path: '/login',
-        element: <Login/>,
+        element: <Login />,
       },
       {
         path: '/signup',
-        element: <SignUp/>,
+        element: <SignUp />,
       },
     ],
   },

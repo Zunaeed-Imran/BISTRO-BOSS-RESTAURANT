@@ -6,7 +6,7 @@ function NavButton() {
     <div>
       <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center py-7">
         <Link
-          to={'saladsection'}
+          to={'allsection'}
           className="hover:text-[#D99904] hover:underline decoration-double btn"
         >
           AllMenu
