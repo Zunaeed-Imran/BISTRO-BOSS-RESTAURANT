@@ -35,6 +35,26 @@ function Testimonial() {
      speed: 5000,
      autoplaySpeed: 5000,
      cssEase: 'linear',
+     responsive: [
+       {
+         breakpoint: 1024, // Large screens
+         settings: {
+           slidesToShow: 3,
+         },
+       },
+       {
+         breakpoint: 768, // Medium screens
+         settings: {
+           slidesToShow: 2,
+         },
+       },
+       {
+         breakpoint: 480, // Small screens
+         settings: {
+           slidesToShow: 1,
+         },
+       },
+     ],
    };
 
   return (
