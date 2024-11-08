@@ -7,3 +7,5 @@ BISTRO BOSS Restaurant Project.
 - need to fix the wide screen the navbar.
 - 
 
+- need to add a UseState() in the nav tab in array.
+- 
