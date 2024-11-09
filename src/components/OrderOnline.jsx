@@ -12,7 +12,7 @@ function OrderOnline() {
       <div className="justify items-center pb-12 md:px-20">
         <OrderOnlineCard/>
       </div>
-      <div className="pb-10 md:px-20">
+      <div className=" md:px-20">
         <OrderOnlineBigCard/>
       </div>
     </div>
