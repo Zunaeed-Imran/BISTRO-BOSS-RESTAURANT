@@ -6,10 +6,10 @@ function OrderOnline() {
   return (
     <div className="justify items-center">
       <div>
-        <p className="text-[#D99904] italic pb-3 pt-6">---Form 11:00am to 10:00pm---</p>
+        <p className="text-[#D99904] italic pb-3">---Form 11:00am to 10:00pm---</p>
         <h1 className="text-4xl">ORDER ONLINE</h1>
       </div>
-      <div className="justify items-center py-8 md:px-20">
+      <div className="justify items-center py-10 md:px-20">
         <OrderOnlineCard/>
       </div>
       <div className="pb-10 md:px-20">
