@@ -2,7 +2,7 @@
 
 function ContactUs() {
   return (
-    <div className="flex flex-col gap-2 justify-start items-start sm:pl-20 text-left">
+    <div className="flex flex-col gap-2 justify-start items-start sm:pl-20 md:pl-48 text-left">
       <h1 className="text-2xl">CONTACT US</h1>
       <p>123 ABS Street, Uni 21, Bangladesh</p>
       <p>+88 123456789</p>
