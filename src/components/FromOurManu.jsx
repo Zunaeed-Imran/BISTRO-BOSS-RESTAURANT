@@ -66,7 +66,7 @@ function FromOurManu() {
           price={'$14.5'}
         />
       </div>
-      <div className="py-7">
+      <div className="py-10">
         <ViewFullManu />
       </div>
     </div>

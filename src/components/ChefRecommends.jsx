@@ -4,12 +4,12 @@ import AddToCart from "../button/AddToCart";
 
 function ChefRecommends() {
   return (
-    <div className="py-10">
+    <div className="">
       <div>
         <p className="italic text-[#D99904] text-xl pb-3">---Should Try---</p>
-        <h1 className="text-4xl pb-10">CHEF RECOMMENDS</h1>
+        <h1 className="text-4xl pb-7">CHEF RECOMMENDS</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 px-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 px-16 pb-8">
         <ChefCard
           img={chifManu}
           name={'Caeser Salad'}
