@@ -6,18 +6,18 @@ import dissert from "../assets/cardimage/dessert.png";
 function OrderOnlineCard() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-4 lg:gap-20 px-20">
-      <div className="hover:scale-105 hover:opacity-50">
+      <button className="hover:scale-105 hover:opacity-50">
         <img src={salad} alt="salad" />
-      </div>
-      <div className="hover:scale-105 hover:opacity-50">
+      </button>
+      <button className="hover:scale-105 hover:opacity-50">
         <img src={pizza} alt="pizza" />
-      </div>
-      <div className="hover:scale-105 hover:opacity-50">
+      </button>
+      <button className="hover:scale-105 hover:opacity-50">
         <img src={soup} alt="soup" />
-      </div>
-      <div className="hover:scale-105 hover:opacity-50">
+      </button>
+      <button className="hover:scale-105 hover:opacity-50">
         <img src={dissert} alt="desserts" />
-      </div>
+      </button>
     </div>
   );
 }
