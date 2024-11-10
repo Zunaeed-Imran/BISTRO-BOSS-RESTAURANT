@@ -4,11 +4,11 @@ import SendMessage from "../button/SendMessage";
 function ContactForm() {
   return (
     <div>
-      <div className="py-6">
-        <p className="italic font-semibold text-[#D99904]">
+      <div className="pt-10">
+        <p className="italic font-semibold text-[#D99904] pb-3">
           ---Send Us a Message---
         </p>
-        <h1 className="text-4xl py-3">CONTACT FORM</h1>
+        <h1 className="text-4xl pb-10">CONTACT FORM</h1>
       </div>
       <div className="flex flex-col bg-[#F3F3F3] mx-20 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 p-8">
