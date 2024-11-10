@@ -9,7 +9,7 @@ function FromOurMenu2() {
       style={{ backgroundImage: `url(${manubg})` }}
     >
       <div className="pt-10">
-        <p className="text-xl text-[#D99904]">---Check it out---</p>
+        <p className="text-xl text-[#D99904] pb-3">---Check it out---</p>
         <h1 className="text-4xl text-white">FROM OUR MENU</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
