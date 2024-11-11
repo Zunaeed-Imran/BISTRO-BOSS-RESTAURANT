@@ -1,7 +1,8 @@
 import { CgProfile } from "react-icons/cg";
 import logo from "../assets/logo/logo.png";
 import { RiShoppingCartLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { IoMdLogIn } from "react-icons/io";
@@ -20,9 +21,10 @@ function Navbar() {
     <div className=" bg-black  top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full px-20">
         <div className="justify items-center">
-          <Link to={'/'}>
+          <RouterLink
+            to={'/'}>
             <img src={logo} alt="logo" />
-          </Link>
+          </RouterLink>
         </div>
         <div className="flex gap-4 text-white font-bold justify items-center">
           {/* Button for mobile screen */}
@@ -34,27 +36,36 @@ function Navbar() {
               mobile ? 'flex' : 'hidden'
             } flex-col gap-4 text-left md:flex md:flex-row`}
           >
-            <Link to="/" className="hover:text-yellow-400">
+            <RouterLink to="/" className="hover:text-yellow-400">
               HOME
-            </Link>
-            <Link to="/contactuspage" className="hover:text-yellow-400">
+            </RouterLink>
+            <RouterLink to="/contactuspage" className="hover:text-yellow-400">
               CONTACT US
-            </Link>
-            <Link to="/error" className="hover:text-yellow-400">
+            </RouterLink>
+            <RouterLink to="/error" className="hover:text-yellow-400">
               DASHBOARD
-            </Link>
-            <Link to="/ourmenu" className="hover:text-yellow-400">
+            </RouterLink>
+            <RouterLink to="/ourmenu" className="hover:text-yellow-400">
               OUR MENU
-            </Link>
-            <Link to="/ourshop" className="hover:text-yellow-400 flex gap-2">
+            </RouterLink>
+            <RouterLink
+              to="/ourshop"
+              className="hover:text-yellow-400 flex gap-2"
+            >
               OUR SHOP <RiShoppingCartLine size={'1.5rem'} />
-            </Link>
-            <Link to={'/login'} className="hover:text-yellow-400 flex gap-2">
+            </RouterLink>
+            <RouterLink
+              to={'/login'}
+              className="hover:text-yellow-400 flex gap-2"
+            >
               LOGIN <IoMdLogIn size={'1.5rem'} />
-            </Link>
-            <Link to={'/signup'} className="hover:text-yellow-400 flex gap-2">
+            </RouterLink>
+            <RouterLink
+              to={'/signup'}
+              className="hover:text-yellow-400 flex gap-2"
+            >
               SIGN UP <CgProfile size={'1.5rem'} />
-            </Link>
+            </RouterLink>
           </div>
         </div>
       </div>
