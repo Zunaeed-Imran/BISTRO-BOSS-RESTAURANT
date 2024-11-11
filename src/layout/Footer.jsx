@@ -12,10 +12,8 @@ function Footer() {
         <ContactUs />
         <FollowUs />
       </div>
-      <div className="absolute">
-        <ScrollButton />
-      </div>
       <div className="bg-[#151515] text-white p-3">
+        <ScrollButton />
         <h1>Copyright © CulinaryCloud. All rights reserved.</h1>
       </div>
     </div>
