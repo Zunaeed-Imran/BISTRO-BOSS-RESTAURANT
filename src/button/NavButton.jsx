@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavButton() {
   return (
     <div>
-      <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center py-7">
+      <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center py-10">
         <Link
           to={'allsection'}
           className="hover:text-[#D99904] hover:underline decoration-double btn"

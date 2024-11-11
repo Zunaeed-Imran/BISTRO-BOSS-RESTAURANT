@@ -7,7 +7,7 @@ import SoupSection from "./SoupSection"
 
 function AllMenuSection() {
   return (
-    <div>
+    <div className="pb-10">
       <SaladSection/>
       <PizzaSection />
       <SoupSection />
