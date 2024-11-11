@@ -7,10 +7,7 @@ import shop from "../assets/pageimage/shop.png";
 function Hero() {
   return (
     <div className="w-full">
-      <div
-        className="relative w-full bg-cover bg-center h-[500px] flex items-start justify-start rounded-md mb-10 top-0"
-        style={{ backgroundImage: `url(${hero})` }}
-      >
+      <div className="">
         <div>
           <div className="carousel w-full h-[500px]">
             <div id="slide1" className="carousel-item relative w-full">
@@ -77,3 +74,10 @@ function Hero() {
 }
 
 export default Hero
+
+
+
+
+// Hero section background image set class.
+// className="relative w-full bg-cover bg-center h-[500px] flex items-start justify-start rounded-md mb-10 top-0"
+// style={{ backgroundImage: `url(${hero})` }}
