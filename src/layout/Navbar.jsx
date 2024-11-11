@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className="bg-black top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full px-20">
-        <div className="justify items-center">
+        <button className="justify items-center">
           {location.pathname === '/' ? (
             <ScrollLink to="home" smooth={true} duration={500}>
               <img src={logo} alt="logo" />
@@ -28,7 +28,7 @@ function Navbar() {
               <img src={logo} alt="logo" />
             </RouterLink>
           )}
-        </div>
+        </button>
         <div className="flex gap-4 text-white font-bold justify items-center">
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
