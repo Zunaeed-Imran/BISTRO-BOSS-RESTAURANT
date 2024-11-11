@@ -7,12 +7,12 @@ import FollowUs from "../smallcomponents/FollowUs";
 function Footer() {
   return (
     <div>
-      <div className="grid grid-cols-1 justify-start items-start md:grid-cols-3 w-full bg-[#111827] text-white pb-7 text-left px-20 pt-14 gap-10 md:gap-0">
+      <div className="relative grid grid-cols-1 justify-start items-start md:grid-cols-3 w-full bg-[#111827] text-white pb-7 text-left px-20 pt-14 gap-10 md:gap-0">
         <AboutUs />
         <ContactUs />
         <FollowUs />
       </div>
-      <div>
+      <div className="absolute">
         <ScrollButton />
       </div>
       <div className="bg-[#151515] text-white p-3">
