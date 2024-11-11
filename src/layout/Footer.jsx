@@ -1,3 +1,4 @@
+import ScrollButton from "../button/ScrollButton";
 import AboutUs from "../smallcomponents/AboutUs";
 import ContactUs from "../smallcomponents/ContactUs";
 import FollowUs from "../smallcomponents/FollowUs";
@@ -10,6 +11,9 @@ function Footer() {
         <AboutUs />
         <ContactUs />
         <FollowUs />
+      </div>
+      <div>
+        <ScrollButton />
       </div>
       <div className="bg-[#151515] text-white p-3">
         <h1>Copyright © CulinaryCloud. All rights reserved.</h1>
