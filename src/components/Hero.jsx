@@ -7,7 +7,7 @@ import shop from "../assets/pageimage/shop.png";
 function Hero() {
   return (
     <div className="w-full">
-      <div className="">
+      <div className="mb-9">
         <div>
           <div className="carousel w-full h-[500px]">
             <div id="slide1" className="carousel-item relative w-full">
