@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 function ReviewCard({logo, img, desc, name}) {
   return (
-    <div className='flex flex-col gap-5 justify-center items-center pt-7'>
-      <img src={img} alt="Logo Image" className='h-48' />
+    <div className='flex flex-col justify-center items-center pt-7'>
+      <img src={img} alt="Logo Image" className='h-36' />
       <div className="flex">
         <p className="text-[#CD9003] text-3xl">{logo}</p>
         <p className="text-[#CD9003] text-3xl">{logo}</p>
@@ -12,7 +12,7 @@ function ReviewCard({logo, img, desc, name}) {
         <p className="text-[#CD9003] text-3xl">{logo}</p>
       </div>
       <h1 className="text-[#CD9003] text-2xl">{name}</h1>
-      <p className='leading-relaxed md:px-52 px-10'>{desc}</p>
+      <p className='leading-relaxed px-10'>{desc}</p>
     </div>
   );
 }

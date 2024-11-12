@@ -29,7 +29,7 @@ function Testimonial() {
    const settings = {
      dots: true,
      infinite: true,
-     slidesToShow: 3,
+     slidesToShow: 4,
      slidesToScroll: 1,
      autoplay: true,
      speed: 5000,
