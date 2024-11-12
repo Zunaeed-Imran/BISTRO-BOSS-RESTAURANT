@@ -4,7 +4,7 @@ import NavButton from "../button/NavButton";
 
 function OurShopManu() {
   return (
-    <div>
+    <div className="pb-6">
       {/* nav button of this page */}
         <NavButton/>
       {/* start the card section here */}
