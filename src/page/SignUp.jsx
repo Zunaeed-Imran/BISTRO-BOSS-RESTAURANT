@@ -51,7 +51,7 @@ function SignUp() {
           </div>
         </div>
         {/* image portion fo this page */}
-        <div className="md:pt-32 items-center md:p-8">
+        <div className="md:pt-32 items-center md:px-20 flex justify-end">
           <img src={signupimg} alt="" />
         </div>
       </div>

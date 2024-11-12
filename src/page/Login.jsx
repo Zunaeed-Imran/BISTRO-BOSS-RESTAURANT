@@ -8,7 +8,7 @@ function Login() {
     <div>
       <PageTitle title={'Login'} />
       <div className="grid w-full grid-cols-1 md:grid-cols-2 justify-center items-center bg-[#F1F2F4]">
-        <div className="md:pt-32 items-center md:p-8">
+        <div className="md:pt-32 items-center md:px-20">
           <img src={loginimg} alt="" />
         </div>
         <div className="md:pt-32 items-center justify-center md:p-20">
