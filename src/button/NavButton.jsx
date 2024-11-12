@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 function NavButton() {
   return (
     <div>
       <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center pt-10 pb-7">
-        <Link
+        <NavLink
           to={'allsection'}
           className={({ isActive }) =>
             isActive
@@ -14,37 +14,57 @@ function NavButton() {
           }
         >
           AllMenu
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={'saladsection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           SALAD
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={'pizzasection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           PIZZA
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={'soupsection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           SOUPS
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={'dessertsection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           DESSERT
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to={'drinksection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           DRINKS
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
