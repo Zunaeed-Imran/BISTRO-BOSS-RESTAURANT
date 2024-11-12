@@ -2,60 +2,50 @@ import hero from "../assets/pageimage/hero.png";
 import menu from "../assets/pageimage/manu.jpg";
 import contact from "../assets/pageimage/contact.png";
 import shop from "../assets/pageimage/shop.png";
+import Slider from "react-slick";
 
 
 function Hero() {
+
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
+
+
   return (
     <div id="home" className="w-full">
       <div className="mb-9">
-        <div>
-          <div className="carousel w-full h-[500px]">
-            <div id="slide1" className="carousel-item relative w-full">
+        <Slider {...settings}>
+          <div>
+            <h3>
               <img src={hero} className="w-full" />
-              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide2" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
-            <div id="slide2" className="carousel-item relative w-full">
-              <img src={menu} className="w-full" />
-              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide3" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
-            <div id="slide3" className="carousel-item relative w-full">
-              <img src={contact} className="w-full" />
-              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide4" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
-            <div id="slide4" className="carousel-item relative w-full">
-              <img src={shop} className="w-full" />
-              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" className="btn btn-circle">
-                  ❮
-                </a>
-                <a href="#slide1" className="btn btn-circle">
-                  ❯
-                </a>
-              </div>
-            </div>
+            </h3>
           </div>
-        </div>
+          <div>
+            <h3>
+              <img src={menu} className="w-full" />
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <img src={contact} className="w-full" />
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <img src={shop} className="w-full" />
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <img src={menu} className="w-full" />
+            </h3>
+          </div>
+        </Slider>
       </div>
     </div>
   );
