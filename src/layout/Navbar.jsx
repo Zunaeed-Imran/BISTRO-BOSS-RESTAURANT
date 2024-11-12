@@ -38,7 +38,12 @@ function Navbar() {
               mobile ? 'flex' : 'hidden'
             } flex-col gap-4 text-left md:flex md:flex-row`}
           >
-            <RouterLink to="/" className="hover:text-yellow-400">
+            <RouterLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+              }
+            >
               HOME
             </RouterLink>
             <RouterLink to="/contactuspage" className="hover:text-yellow-400">
