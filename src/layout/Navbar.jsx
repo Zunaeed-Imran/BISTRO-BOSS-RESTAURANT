@@ -46,30 +46,42 @@ function Navbar() {
             >
               HOME
             </NavLink>
-            <NavLink to="/contactuspage" className="hover:text-yellow-400">
+            <NavLink to="/contactuspage" className={({ isActive }) => 
+              isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+            }>
               CONTACT US
             </NavLink>
-            <NavLink to="/error" className="hover:text-yellow-400">
+            <NavLink to="/error" className={({ isActive }) => 
+              isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+            }>
               DASHBOARD
             </NavLink>
-            <NavLink to="/ourmenu" className="hover:text-yellow-400">
+            <NavLink to="/ourmenu" className={({ isActive }) => 
+              isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+            }>
               OUR MENU
             </NavLink>
             <NavLink
               to="/ourshop"
-              className="hover:text-yellow-400 flex gap-2"
+              className={({ isActive }) => 
+                isActive ? 'text-yellow-400 flex gap-2' : 'hover:text-yellow-400 flex gap-2'
+              }
             >
               OUR SHOP <RiShoppingCartLine size="1.5rem" />
             </NavLink>
             <NavLink
               to="/login"
-              className="hover:text-yellow-400 flex gap-2"
+              className={({ isActive }) => 
+                isActive ? 'text-yellow-400 flex gap-2' : 'hover:text-yellow-400 flex gap-2'
+              }
             >
               LOGIN <IoMdLogIn size="1.5rem" />
             </NavLink>
             <NavLink
               to="/signup"
-              className="hover:text-yellow-400 flex gap-2"
+              className={({ isActive }) => 
+                isActive ? 'text-yellow-400 flex gap-2' : 'hover:text-yellow-400 flex gap-2'
+              }
             >
               SIGN UP <CgProfile size="1.5rem" />
             </NavLink>
