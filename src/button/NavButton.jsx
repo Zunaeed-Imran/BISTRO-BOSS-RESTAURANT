@@ -7,7 +7,11 @@ function NavButton() {
       <div className="flex gap-4 lg:gap-10 text-xl justify-center items-center pt-10 pb-7">
         <Link
           to={'allsection'}
-          className="hover:text-[#D99904] decoration-double btn"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-[#D99904] decoration-double btn'
+              : 'hover:text-[#D99904] decoration-double btn'
+          }
         >
           AllMenu
         </Link>
