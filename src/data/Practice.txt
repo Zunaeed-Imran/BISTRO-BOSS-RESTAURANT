@@ -17,3 +17,14 @@ const handlePageClick = event => {
   setCurrentItems(itemperpage.slice(newOffset, newOffset + itemperpage));
 };
 
+return(
+  <div>
+    {currentItems.length > 0 ? (
+      currentItems.map((item, index) => {
+        <div key={index}>
+          <p>{item.name}</p>
+        </div>
+      })
+    )}
+  </div>
+);

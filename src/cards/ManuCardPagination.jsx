@@ -35,7 +35,7 @@ function ManuCardPagination({ items }) {
                 <img
                   src={item.img}
                   alt="logo image"
-                  className="hover:opacity-50"
+                  className="link hover:opacity-50 hover:scale-105 hover:transition-opacity"
                 />
                 <p className="font-cinzel text-xl font-semibold text-left">
                   {item.name}
