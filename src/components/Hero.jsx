@@ -5,6 +5,57 @@ import shop from "../assets/pageimage/shop.png";
 import Slider from "react-slick";
 
 
+
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+      style={{
+        ...style,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        right: '10px', // Adjust position as needed
+        borderRadius: '50%',
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer',
+        zIndex: 2,
+      }}
+    >
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+      style={{
+        ...style,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        left: '10px', // Adjust position as needed
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer',
+        zIndex: 2,
+      }}
+    >
+    </div>
+  );
+}
+
+
+
+
+// main page function
 function Hero() {
 
     var settings = {
@@ -15,6 +66,8 @@ function Hero() {
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: false,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
     };
 
 
