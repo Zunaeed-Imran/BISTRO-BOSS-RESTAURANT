@@ -3,7 +3,7 @@ import menu from "../assets/pageimage/manu.jpg";
 import contact from "../assets/pageimage/contact.png";
 import shop from "../assets/pageimage/shop.png";
 import Slider from "react-slick";
-
+import PropTypes from 'prop-types';
 
 
 
@@ -108,6 +108,17 @@ function Hero() {
 
 export default Hero
 
+
+SampleNextArrow.propTypes = {
+  className: PropTypes.string,
+  style: PropTypes.string,
+  onClick: PropTypes.string,
+};
+SamplePrevArrow.propTypes = {
+  className: PropTypes.string,
+  style: PropTypes.string,
+  onClick: PropTypes.string,
+};
 
 
 
