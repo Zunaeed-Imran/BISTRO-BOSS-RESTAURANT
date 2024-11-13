@@ -9,12 +9,12 @@ function Hero() {
 
     var settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      pauseOnHover: true,
+      pauseOnHover: false,
     };
 
 
