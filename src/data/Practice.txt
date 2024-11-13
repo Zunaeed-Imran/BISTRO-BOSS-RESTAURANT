@@ -1,0 +1,19 @@
+
+
+const itemperpage = 2;
+
+const [currentItems, setCurrentItems] = useState([]);
+const [pageCount, setPageCount] = useState(0);
+
+useEffect (() =>{
+  if(items && items.length > 0){
+    setPageCount(Math.ceil(items.length / itemperpage));
+    setCurrentItems(items.slice(0, itemperpage));
+  }
+}, [items]);
+
+const handlePageClick = event => {
+  const newOffset = event.selected * itemperpage;
+  setCurrentItems(itemperpage.slice(newOffset, newOffset + itemperpage));
+};
+
