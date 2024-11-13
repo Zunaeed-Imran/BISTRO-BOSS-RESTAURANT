@@ -59,7 +59,7 @@ function SamplePrevArrow(props) {
 function Hero() {
 
     var settings = {
-      dots: true,
+      dots: false,
       infinite: false,
       slidesToShow: 1,
       slidesToScroll: 1,
