@@ -3,10 +3,11 @@ import menu from "../assets/pageimage/manu.jpg";
 import contact from "../assets/pageimage/contact.png";
 import shop from "../assets/pageimage/shop.png";
 import Slider from "react-slick";
+// import proptypes.
 import PropTypes from 'prop-types';
 
 
-
+// arrow button for next button.
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -29,6 +30,7 @@ function SampleNextArrow(props) {
     </div>
   );
 }
+// arrow for prev button.
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
@@ -109,6 +111,7 @@ function Hero() {
 export default Hero
 
 
+// prop defining.
 SampleNextArrow.propTypes = {
   className: PropTypes.string,
   style: PropTypes.string,
