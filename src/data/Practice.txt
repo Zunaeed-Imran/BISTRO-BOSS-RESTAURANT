@@ -34,7 +34,12 @@ function ManucardItem({items}){
       </div>
 
       <div>
-        <>
+        PreviousLinkClass={`prev-link ${currentPage === 1 ? 'disabled-link' : '' }`}
+        nextLinkClassName={
+          `next-link ${
+            currentPage === pageCount ? 'disabled-link' : ''
+          }`
+        }
       </div>
 
     </div>
