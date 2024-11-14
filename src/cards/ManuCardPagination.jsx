@@ -66,8 +66,12 @@ function ManuCardPagination({ items }) {
           previousLabel="< Previous"
           containerClassName="pagination flex justify-center"
           pageLinkClassName="page-link"
-          previousLinkClassName="prev-link"
-          nextLinkClassName="next-link"
+          previousLinkClassName={`prev-link ${
+            currentPage === 1 ? 'disabled-link' : ''
+          }`}
+          nextLinkClassName={`next-link ${
+            currentPage === pageCount ? 'disabled-link' : ''
+          }`}
           activeClassName="active"
         />
       </div>

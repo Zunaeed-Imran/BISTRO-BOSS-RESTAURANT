@@ -25,3 +25,11 @@
   color: white;
   border: 1px solid black;
 }
+
+.disabled-link {
+  pointer-events: none;
+  color: gray;
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
+  cursor: not-allowed;
+}
