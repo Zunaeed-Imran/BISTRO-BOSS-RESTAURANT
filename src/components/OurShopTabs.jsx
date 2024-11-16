@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 import AllMenuSection from '../smallcomponents/AllMenuSection';
 import SaladSection from '../smallcomponents/SaladSection';
 import PizzaSection from '../smallcomponents/PizzaSection';
@@ -8,43 +10,45 @@ import DrinkSection from '../smallcomponents/DrinkSection';
 import '../assets/styles/OurSHopTabMenu.css';
 
 const OurShopTabs = () => {
-  // State for the active tab
-  const [activeTab, setActiveTab] = useState('AllMenu');
-
-  // Tab data
-  const tabs = [
-    { id: 'AllMenu', label: 'All Menu', content: <AllMenuSection /> },
-    { id: 'SALAD', label: 'Salad', content: <SaladSection /> },
-    { id: 'PIZZA', label: 'Pizza', content: <PizzaSection /> },
-    { id: 'SOUPS', label: 'Soups', content: <SoupSection /> },
-    { id: 'DESSERT', label: 'Dessert', content: <DessertSection /> },
-    { id: 'DRINKS', label: 'Drinks', content: <DrinkSection /> },
-  ];
-
-  // Find the active tab's content
-  const activeContent = tabs.find(tab => tab.id === activeTab)?.content || (
-    <div>Content not found</div>
-  );
+  const [tabIndex, setTabIndex] = useState(0);
 
   return (
-    <div>
-      {/* Tab Menu */}
-      <div className="tab-menu">
-        {tabs.map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`tab-button ${activeTab === tab.id ? 'active' : ''}`}
-            aria-selected={activeTab === tab.id}
-            role="tab"
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
+    <div className="our-shop">
+      <Tabs
+        className="text-center w-full md:w-10/12 mx-auto"
+        selectedIndex={tabIndex}
+        onSelect={index => setTabIndex(index)}
+      >
+        {/* Tab List */}
+        <TabList>
+          <Tab>All Menu</Tab>
+          <Tab>Salad</Tab>
+          <Tab>Pizza</Tab>
+          <Tab>Soup</Tab>
+          <Tab>Dessert</Tab>
+          <Tab>Drinks</Tab>
+        </TabList>
 
-      {/* Render the active tab's content */}
-      <div className="tab-content">{activeContent}</div>
+        {/* Tab Panels */}
+        <TabPanel>
+          <AllMenuSection />
+        </TabPanel>
+        <TabPanel>
+          <SaladSection />
+        </TabPanel>
+        <TabPanel>
+          <PizzaSection />
+        </TabPanel>
+        <TabPanel>
+          <SoupSection />
+        </TabPanel>
+        <TabPanel>
+          <DessertSection />
+        </TabPanel>
+        <TabPanel>
+          <DrinkSection />
+        </TabPanel>
+      </Tabs>
     </div>
   );
 };
