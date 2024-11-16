@@ -6,9 +6,12 @@ const OurShopTabs = () => {
 
   // Tab data
   const tabs = [
-    { id: 'tab1', label: 'Tab 1', content: <div>Content for Tab 1</div> },
-    { id: 'tab2', label: 'Tab 2', content: <div>Content for Tab 2</div> },
-    { id: 'tab3', label: 'Tab 3', content: <div>Content for Tab 3</div> },
+    { id: 'tab1', label: 'AllMenu', content: <div>Content for Tab 1</div> },
+    { id: 'tab2', label: 'SALAD', content: <div>Content for Tab 2</div> },
+    { id: 'tab3', label: 'PIZZA', content: <div>Content for Tab 3</div> },
+    { id: 'tab3', label: 'SOUPS', content: <div>Content for Tab 3</div> },
+    { id: 'tab3', label: 'DESSERT', content: <div>Content for Tab 3</div> },
+    { id: 'tab3', label: 'DRINKS', content: <div>Content for Tab 3</div> },
   ];
 
   // Filter the active tab's content
