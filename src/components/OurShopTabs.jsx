@@ -5,24 +5,26 @@ import PizzaSection from '../smallcomponents/PizzaSection';
 import SoupSection from '../smallcomponents/SoupSection';
 import DessertSection from '../smallcomponents/DessertSection';
 import DrinkSection from '../smallcomponents/DrinkSection';
-import  '../assets/styles/OurSHopTabMenu.css';
+import '../assets/styles/OurSHopTabMenu.css';
 
 const OurShopTabs = () => {
   // State for the active tab
-  const [activeTab, setActiveTab] = useState('tab1');
+  const [activeTab, setActiveTab] = useState('AllMenu');
 
   // Tab data
   const tabs = [
-    { id: 'tab1', label: 'AllMenu', content: <AllMenuSection /> },
-    { id: 'tab2', label: 'SALAD', content: <SaladSection/> },
-    { id: 'tab3', label: 'PIZZA', content: <PizzaSection/> },
-    { id: 'tab4', label: 'SOUPS', content: <SoupSection/> },
-    { id: 'tab5', label: 'DESSERT', content: <DessertSection/> },
-    { id: 'tab6', label: 'DRINKS', content: <DrinkSection/> },
+    { id: 'AllMenu', label: 'All Menu', content: <AllMenuSection /> },
+    { id: 'SALAD', label: 'Salad', content: <SaladSection /> },
+    { id: 'PIZZA', label: 'Pizza', content: <PizzaSection /> },
+    { id: 'SOUPS', label: 'Soups', content: <SoupSection /> },
+    { id: 'DESSERT', label: 'Dessert', content: <DessertSection /> },
+    { id: 'DRINKS', label: 'Drinks', content: <DrinkSection /> },
   ];
 
   // Find the active tab's content
-  const activeContent = tabs.find(tab => tab.id === activeTab)?.content;
+  const activeContent = tabs.find(tab => tab.id === activeTab)?.content || (
+    <div>Content not found</div>
+  );
 
   return (
     <div>
@@ -33,6 +35,8 @@ const OurShopTabs = () => {
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
             className={`tab-button ${activeTab === tab.id ? 'active' : ''}`}
+            aria-selected={activeTab === tab.id}
+            role="tab"
           >
             {tab.label}
           </button>
