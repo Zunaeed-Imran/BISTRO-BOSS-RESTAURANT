@@ -1,5 +1,6 @@
 import HeroOurShop from "../components/HeroOurShop"
-import OurShopManu from "../components/OurShopManu"
+import OurShopTabs from "../components/OurShopTabs";
+// import OurShopManu from "../components/OurShopManu"
 import PageTitle from "../services/PageTitle"
 
 function OurShop() {
@@ -7,7 +8,8 @@ function OurShop() {
     <div>
       <PageTitle title={'OurShop'} />
       <HeroOurShop />
-      <OurShopManu />
+      {/* <OurShopManu /> */}
+      <OurShopTabs/>
     </div>
   );
 };
