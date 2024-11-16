@@ -1,4 +1,10 @@
 import { useState } from 'react';
+import AllMenuSection from '../smallcomponents/AllMenuSection';
+import SaladSection from '../smallcomponents/SaladSection';
+import PizzaSection from '../smallcomponents/PizzaSection';
+import SoupSection from '../smallcomponents/SoupSection';
+import DessertSection from '../smallcomponents/DessertSection';
+import DrinkSection from '../smallcomponents/DrinkSection';
 
 const OurShopTabs = () => {
   // State for the active tab
@@ -6,16 +12,16 @@ const OurShopTabs = () => {
 
   // Tab data
   const tabs = [
-    { id: 'tab1', label: 'AllMenu', content: <div>Content for Tab 1</div> },
-    { id: 'tab2', label: 'SALAD', content: <div>Content for Tab 2</div> },
-    { id: 'tab3', label: 'PIZZA', content: <div>Content for Tab 3</div> },
-    { id: 'tab3', label: 'SOUPS', content: <div>Content for Tab 3</div> },
-    { id: 'tab3', label: 'DESSERT', content: <div>Content for Tab 3</div> },
-    { id: 'tab3', label: 'DRINKS', content: <div>Content for Tab 3</div> },
+    { id: 'tab1', label: 'AllMenu', content: <AllMenuSection /> },
+    { id: 'tab2', label: 'SALAD', content: <SaladSection/> },
+    { id: 'tab3', label: 'PIZZA', content: <PizzaSection/> },
+    { id: 'tab4', label: 'SOUPS', content: <SoupSection/> },
+    { id: 'tab5', label: 'DESSERT', content: <DessertSection/> },
+    { id: 'tab6', label: 'DRINKS', content: <DrinkSection/> },
   ];
 
-  // Filter the active tab's content
-  const activeContent = tabs.filter(tab => tab.id === activeTab)[0]?.content;
+  // Find the active tab's content
+  const activeContent = tabs.find(tab => tab.id === activeTab)?.content;
 
   return (
     <div>
