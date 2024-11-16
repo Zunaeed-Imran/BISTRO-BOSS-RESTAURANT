@@ -7,7 +7,7 @@ import PizzaSection from '../smallcomponents/PizzaSection';
 import SoupSection from '../smallcomponents/SoupSection';
 import DessertSection from '../smallcomponents/DessertSection';
 import DrinkSection from '../smallcomponents/DrinkSection';
-import '../assets/styles/OurSHopTabMenu.css';
+// import '../assets/styles/OurSHopTabMenu.css';
 
 const OurShopTabs = () => {
   const [tabIndex, setTabIndex] = useState(0);
