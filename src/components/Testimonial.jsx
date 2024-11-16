@@ -63,7 +63,7 @@ function Testimonial() {
         <p className="text-xl text-[#D99904]">---What Our Clients Say---</p>
         <h1 className="text-4xl py-3">TESTIMONIALS</h1>
       </div>
-      <div className="slider-container px-20">
+      <div className="slider-container px-20 pb-7">
         <Slider {...settings}>
           <div>
             <ReviewCard
