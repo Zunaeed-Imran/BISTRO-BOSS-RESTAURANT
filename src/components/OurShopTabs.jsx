@@ -12,7 +12,7 @@ const OurShopTabs = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   return (
-    <div className="">
+    <div className="pb-7">
       <Tabs selectedIndex={tabIndex} onSelect={index => setTabIndex(index)}>
         {/* Tab List */}
         <TabList className="flex gap-4 lg:gap-10 text-xl justify-center items-center pt-10 pb-7">
