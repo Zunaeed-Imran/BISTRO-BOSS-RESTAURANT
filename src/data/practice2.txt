@@ -1,0 +1,18 @@
+
+
+const = saladPagination({items}){
+  const itemPerpage = 2;
+
+  const [currentItem, setCurrentItems] = useState([]);
+  const [pageCount, setpageCount] = useState(0);
+  const [currentPage, setCurrentpage] = useState(1);
+
+
+  useEffect(() => {
+    if(items && items.length > 0){
+      setpageCount(math.ceil(items.length /  itemPerpage));
+      
+    }
+  })
+
+}
