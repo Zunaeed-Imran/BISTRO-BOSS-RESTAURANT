@@ -13,14 +13,14 @@ const OurShopTabs = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   return (
-    <div className="our-shop">
+    <div className="">
       <Tabs
-        className="text-center w-full md:w-10/12 mx-auto"
+        className=""
         selectedIndex={tabIndex}
         onSelect={index => setTabIndex(index)}
       >
         {/* Tab List */}
-        <TabList>
+        <TabList className={'flex gap-4 lg:gap-10 text-xl justify-center items-center pt-10 pb-7'}>
           <Tab>All Menu</Tab>
           <Tab>Salad</Tab>
           <Tab>Pizza</Tab>
