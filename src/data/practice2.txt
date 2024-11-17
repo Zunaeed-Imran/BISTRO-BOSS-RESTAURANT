@@ -11,8 +11,14 @@ const = saladPagination({items}){
   useEffect(() => {
     if(items && items.length > 0){
       setpageCount(math.ceil(items.length /  itemPerpage));
-      
+      setCurrentItems(items.slice(0, itemPerpage));
     }
-  })
+  }, [items]);
+
+  const handlepageClick = event => {
+    const newOffset = event.selected * itemPerpage;
+    setCurrentItems(items.slice(newOffset, newOffset + itemPerpage));
+    setCurrentpage(event.selected + 1);
+  }
 
 }
