@@ -20,7 +20,7 @@ function AllSmallManu() {
           }
         />
       </div>
-      {/* rest of the small manu card */}
+      {/* soup section small card pagination */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 md:px-20">
         <ManuCard
           img={roastDuck}
