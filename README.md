@@ -7,5 +7,6 @@ BISTRO BOSS Restaurant Project.
 - need to fix the wide screen the navbar.
 - 
 
-- need to add a UseState() in the nav tab in array.
+- in our shop i should use json data calling.
+- styling the hand scroll arrow.
 - 
