@@ -11,7 +11,7 @@ function ScrollButton() {
       const heroHight = document.getElementById('hero').clientHeight;
 
       // condation, show button if the hero section end.
-      if (window.screenY > heroHight) {
+      if (window.scrollY > heroHight) {
         setVisable(true);
       } else {
         setVisable(false);
