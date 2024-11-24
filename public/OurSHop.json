@@ -4,35 +4,35 @@
       "id": "1",
       "img": "https://i.ibb.co.com/HKdxQjr/dessert-All.png",
       "name": "Dessert",
-      "desc": "",
+      "desc": "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
       "categories": "dessert"
     },
     {
       "id": "2",
       "img": "https://i.ibb.co.com/BNPfxgb/drinks-All.png",
       "name": "Drink",
-      "desc": "",
+      "desc": "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
       "categories": "drink"
     },
     {
       "id": "3",
       "img": "https://i.ibb.co.com/LZ2WXQQ/pizzaAll.png",
       "name": "Pizza",
-      "desc": "",
+      "desc": "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
       "categories": "pizza"
     },
     {
       "id": "4",
       "img": "https://i.ibb.co.com/7bvpmB3/soupAll.png",
       "name": "Soup",
-      "desc": "",
+      "desc": "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
       "categories": "soup"
     },
     {
       "id": "5",
       "img": "https://i.ibb.co.com/nbnJ7mV/saladAll.png",
       "name": "Salad",
-      "desc": "",
+      "desc": "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
       "categories": "salad"
     }
   ]
