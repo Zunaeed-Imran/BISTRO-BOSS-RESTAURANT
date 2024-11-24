@@ -1,5 +1,6 @@
 import OrderOnlineBigCard from "../cards/OrderOnlineBigCard";
-import OrderOnlineCard from "../cards/OrderOnlineCard";
+import OrderOnlineAPI from "./OrderOnlineAPI";
+// import OrderOnlineCard from "../cards/OrderOnlineCard";
 
 
 function OrderOnline() {
@@ -10,7 +11,8 @@ function OrderOnline() {
         <h1 className="text-4xl pb-10">ORDER ONLINE</h1>
       </div>
       <div className="justify items-center pb-12 md:px-20">
-        <OrderOnlineCard/>
+        {/* <OrderOnlineCard/> */}
+        <OrderOnlineAPI/>
       </div>
       <div className=" md:px-20">
         <OrderOnlineBigCard/>
