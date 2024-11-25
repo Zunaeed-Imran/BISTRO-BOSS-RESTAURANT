@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
-
+import axios from 'axios';
 
 function OrderOnlineAPI() {
 
-  const [menu, setMenu] = useState([]);
+  const [ourShop, setOurShop] = useState([]);
 
   const getMenu = async () => {
     const response = await axios.get('/OurSHop.json');
-    setMenu(response.data.User);
+    setOurShop(response.data.setOurShop);
   };
 
   useEffect(() => {
@@ -16,12 +16,10 @@ function OrderOnlineAPI() {
 
   return (
     <div>
-      {menu.map(user => {
+      {ourShop.map(ourSho => {
         return (
-          <article key={user.id}>
-            <h2>{user.name}</h2>
-            <img src={user.image} alt={`${user.name}'s image`} />
-            <h2>{user.email}</h2>
+          <article key={ourSho.id}>
+            <img src={ourSho.image} alt={`${ourSho.name}'s image`} />
           </article>
         );
       })}
