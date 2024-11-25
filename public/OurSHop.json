@@ -1,5 +1,5 @@
-{
-  "ourShop":[
+
+[
     {
       "id": "1",
       "img": "https://i.ibb.co.com/HKdxQjr/dessert-All.png",
@@ -52,4 +52,3 @@
       "img":"https://i.ibb.co.com/jJX2Gwb/soup.png"
     }
   ]
-}

@@ -4,10 +4,11 @@ import axios from 'axios';
 function OrderOnlineAPI() {
 
   const [ourShop, setOurShop] = useState([]);
-
+  console.log(ourShop);
   const getMenu = async () => {
     const response = await axios.get('/OurSHop.json');
-    setOurShop(response.data.setOurShop);
+    console.log(response.data);
+    setOurShop(response.data);
   };
 
   useEffect(() => {
@@ -16,13 +17,10 @@ function OrderOnlineAPI() {
 
   return (
     <div>
-      {ourShop.map(ourSho => {
-        return (
-          <article key={ourSho.id}>
-            <img src={ourSho.image} alt={`${ourSho.name}'s image`} />
-          </article>
-        );
-      })}
+      {ourShop?.map(item =>
+        <div key={item.id}>
+          <img src={item.img} alt="" />
+      </div>)}
     </div>
   );
 }
