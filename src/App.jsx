@@ -1,5 +1,6 @@
 import './App.css'
-import ChefRecommends from './components/ChefRecommends'
+import ChefRecommendsAPI from './components/ChefRecommendsAPI'
+// import ChefRecommends from './components/ChefRecommends'
 import FromOurManu from './components/FromOurManu'
 import FromOurMenu2 from './components/FromOurMenu2'
 import Hero from './components/Hero'
@@ -17,7 +18,8 @@ function App() {
         <Hero />
         <OrderOnline />
         <FromOurManu />
-        <ChefRecommends />
+        {/* <ChefRecommends /> */}
+        <ChefRecommendsAPI/>
         <FromOurMenu2 />
         <Testimonial />
       </div>
