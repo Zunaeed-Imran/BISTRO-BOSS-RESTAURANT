@@ -1,6 +1,7 @@
 import ContactForm from "../components/ContactForm"
 import HeroContactUs from "../components/HeroContactUs"
-import LocationContactUs from "../components/LocationContactUs"
+import LocationContactAPI from "../components/LocationContactAPI"
+// import LocationContactUs from "../components/LocationContactUs"
 import PageTitle from "../services/PageTitle"
 
 
@@ -9,7 +10,8 @@ function ContactUsPage() {
     <div>
       <PageTitle title={'ContactUs'}/>
       <HeroContactUs />
-      <LocationContactUs />
+      {/* <LocationContactUs /> */}
+      <LocationContactAPI/>
       <ContactForm/>
     </div>
   )
