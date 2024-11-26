@@ -78,5 +78,20 @@
     {
       "id":"9",
       "img":"https://i.ibb.co.com/jJX2Gwb/soup.png"
+    },
+    {
+      "id":"10",
+      "phone": "01804468806",
+      "phone2": "018044688**"
+    },
+    {
+      "id":"11",
+      "address": "Level 10, Technology Park,",
+      "address2": "Jashore - 7400, Bangladesh"
+    },
+    {
+      "id":"12",
+      "workingHours": "Mon - Fri: 08:00 - 22:00",
+      "workingHours2": "Sat - Sun: 10:00 - 23:00"
     }
   ]
