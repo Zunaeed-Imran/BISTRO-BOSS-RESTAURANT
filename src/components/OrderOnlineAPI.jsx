@@ -16,11 +16,14 @@ function OrderOnlineAPI() {
   }, []);
 
 return (
-  <div>
+  <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-4 lg:gap-20 px-20">
     {ourShop
       ?.filter(item => ['6', '7', '8', '9'].includes(item.id))
       .map(item => (
-        <div key={item.id}>
+        <div
+          className="link hover:scale-105 hover:opacity-50 hover:transition-opacity"
+          key={item.id}
+        >
           <img src={item.img} alt="Order Menu" />
         </div>
       ))}
