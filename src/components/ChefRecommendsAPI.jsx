@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from 'axios';
-
+import AddToCart from '../button/AddToCart';
 
 function ChefRecommendsAPI() {
 
@@ -33,6 +33,7 @@ function ChefRecommendsAPI() {
                 />
                 <h2 className="text-2xl font-bold  py-2 p-5">{item.name}</h2>
                 <p className="py-3  p-5">{item.desc}</p>
+                <AddToCart />
               </div>
             </div>
           ))}
