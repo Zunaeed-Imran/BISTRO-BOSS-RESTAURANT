@@ -15,14 +15,18 @@ function OrderOnlineAPI() {
     getMenu();
   }, []);
 
-  return (
-    <div>
-      {ourShop?.map(item =>
+return (
+  <div>
+    {ourShop
+      ?.filter(item => ['6', '7', '8', '9'].includes(item.id))
+      .map(item => (
         <div key={item.id}>
-          <img src={item.img} alt="" />
-      </div>)}
-    </div>
-  );
+          <img src={item.img} alt="Order Menu" />
+        </div>
+      ))}
+  </div>
+);
+
 }
 
 export default OrderOnlineAPI
